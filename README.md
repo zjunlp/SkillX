@@ -230,9 +230,8 @@ We will publicly release:
 ---
 
 ## 🙏 Acknowledgement
-We deeply appreciate the invaluable effort contributed by our dedicated team of developers, supportive users, and esteemed industry partners.
-
-- [Ant Digital Technologies, Ant Group](https://intl.antdigital.com/en)
+We deeply appreciate the invaluable effort contributed by our dedicated team of developers, supportive users, and esteemed industry partners: [Ant Digital Technologies, Ant Group](https://intl.antdigital.com/en).
+This repository builds upon code from [ReMe](https://github.com/agentscope-ai/ReMe) and [AgentEvolver](https://github.com/modelscope/AgentEvolver). The baseline implementations are adapted from [A-MEM](https://github.com/agiresearch/a-mem), [AWM](https://github.com/zorazrw/agent-workflow-memory), and [Expel](https://github.com/LeapLabTHU/ExpeL). We sincerely thank all contributors for their outstanding work!
 
 ## 📚 Citation
 
@@ -261,6 +260,3 @@ If you find this work helpful, please consider citing:
 ```
 
 ---
-
-## 🙏 Acknowledgement
-This repository builds upon code from ReMe and AgentEvolver. The baseline implementations are adapted from AMEM, AWM, and Expel. We sincerely thank all contributors for their outstanding work!

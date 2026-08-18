@@ -1,0 +1,5352 @@
+{
+  "timestamp": "2026-01-18T23:23:15.479697",
+  "info": {
+    "git_commit": "unknown",
+    "num_trials": 4,
+    "max_steps": 200,
+    "max_errors": 10,
+    "seed": 300,
+    "agent_info": {
+      "implementation": "llm_agent",
+      "llm": "hosted_vllm/Qwen3-32B",
+      "llm_args": {
+        "temperature": 0.0
+      }
+    },
+    "user_info": {
+      "implementation": "user_simulator",
+      "llm": "gpt-4.1-2025-04-14",
+      "llm_args": {
+        "temperature": 0.0
+      }
+    },
+    "environment_info": {
+      "domain_name": "telecom"
+    }
+  },
+  "simulations": [
+    {
+      "id": "7ba31e9f-37b4-49cd-a6bc-3f14c847ab70",
+      "task_id": "[mobile_data_issue]airplane_mode_on|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "timestamp": "2026-01-18T23:24:45.621243",
+      "start_time": "2026-01-18T23:23:15.782183",
+      "end_time": "2026-01-18T23:24:45.621232",
+      "duration": 89.83840331807733,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.018854,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "cdbb68ba-7dc1-4000-83ef-9a56d319bfb2",
+      "task_id": "[mobile_data_issue]data_saver_mode_on|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-18T23:27:14.543702",
+      "start_time": "2026-01-18T23:23:15.779568",
+      "end_time": "2026-01-18T23:27:14.543688",
+      "duration": 238.76283685863018,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.07561199999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "243741fb-fa11-4abc-9900-dd44934f5d07",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "timestamp": "2026-01-18T23:28:54.078824",
+      "start_time": "2026-01-18T23:27:15.189789",
+      "end_time": "2026-01-18T23:28:54.078812",
+      "duration": 98.88836774602532,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.015539999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "ecbc4376-5feb-4f4b-8e33-314846f625c9",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on[PERSONA:Hard]",
+      "timestamp": "2026-01-18T23:31:20.774610",
+      "start_time": "2026-01-18T23:24:46.297682",
+      "end_time": "2026-01-18T23:31:20.774592",
+      "duration": 394.4744580630213,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.15835199999999997,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "752f5127-587f-4540-90d1-22e4ab2fe653",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-18T23:32:14.092408",
+      "start_time": "2026-01-18T23:23:15.805141",
+      "end_time": "2026-01-18T23:32:14.092375",
+      "duration": 538.2830049376935,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.20663,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "a18560c9-bb16-4059-a12e-9afcbd3680b6",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-18T23:32:40.217372",
+      "start_time": "2026-01-18T23:31:21.423654",
+      "end_time": "2026-01-18T23:32:40.217362",
+      "duration": 78.79322810843587,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.011216,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "bc66de7d-d2ce-42a2-b6bc-02f3d8b9e289",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-18T23:33:30.512426",
+      "start_time": "2026-01-18T23:32:14.755695",
+      "end_time": "2026-01-18T23:33:30.512416",
+      "duration": 75.756242595613,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007724,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "b59322ec-aad1-4adb-a9c3-e883d57ee747",
+      "task_id": "[mobile_data_issue]airplane_mode_on|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-18T23:34:19.568625",
+      "start_time": "2026-01-18T23:28:54.731396",
+      "end_time": "2026-01-18T23:34:19.568609",
+      "duration": 324.83462433703244,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.10152999999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "a2bff3ac-6bf0-4f7d-a26c-9755cabbb81c",
+      "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin[PERSONA:Easy]",
+      "timestamp": "2026-01-18T23:35:45.647044",
+      "start_time": "2026-01-18T23:33:31.176448",
+      "end_time": "2026-01-18T23:35:45.647032",
+      "duration": 134.46955431997776,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.027976,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "bfc12ac5-c164-427f-bca8-795e1ecd6feb",
+      "task_id": "[service_issue]airplane_mode_on|overdue_bill_suspension[PERSONA:None]",
+      "timestamp": "2026-01-18T23:37:46.449877",
+      "start_time": "2026-01-18T23:34:20.295397",
+      "end_time": "2026-01-18T23:37:46.449853",
+      "duration": 206.1523519884795,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.03188,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "d304acc5-44e6-47f2-b58f-de5959495055",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-18T23:39:50.813389",
+      "start_time": "2026-01-18T23:32:40.893025",
+      "end_time": "2026-01-18T23:39:50.813371",
+      "duration": 429.9178103003651,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.121724,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "5b7160fd-b0c4-4f01-99e5-01166f896072",
+      "task_id": "[service_issue]overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]",
+      "timestamp": "2026-01-18T23:41:11.938125",
+      "start_time": "2026-01-18T23:35:46.346354",
+      "end_time": "2026-01-18T23:41:11.938110",
+      "duration": 325.5895152185112,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.080254,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "4713f1a0-6898-41b5-822e-805d10f09e81",
+      "task_id": "[service_issue]contract_end_suspension|unseat_sim_card[PERSONA:Hard]",
+      "timestamp": "2026-01-18T23:41:30.006954",
+      "start_time": "2026-01-18T23:37:47.199003",
+      "end_time": "2026-01-18T23:41:30.006938",
+      "duration": 222.80633610114455,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.020541999999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "4589e022-2420-4d9e-854f-68493e667397",
+      "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+      "timestamp": "2026-01-18T23:45:05.192301",
+      "start_time": "2026-01-18T23:41:12.696691",
+      "end_time": "2026-01-18T23:45:05.192284",
+      "duration": 232.493582515046,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.05188,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "66483a94-6bc2-4b92-aaf2-158351a75670",
+      "task_id": "[service_issue]break_apn_settings|lock_sim_card_pin[PERSONA:None]",
+      "timestamp": "2026-01-18T23:48:09.861025",
+      "start_time": "2026-01-18T23:39:51.612501",
+      "end_time": "2026-01-18T23:48:09.861003",
+      "duration": 498.24603087827563,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.09354399999999996,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "f9dffd40-b3ff-4f08-944b-9c38b6d13a17",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|overdue_bill_suspension[PERSONA:None]",
+      "timestamp": "2026-01-18T23:48:28.158548",
+      "start_time": "2026-01-18T23:41:30.883755",
+      "end_time": "2026-01-18T23:48:28.158533",
+      "duration": 417.27260935120285,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.073128,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 7,
+          "reward_total": 7.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "12c66525-0ede-474a-bd2b-d354d4a98d80",
+      "task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]",
+      "timestamp": "2026-01-18T23:50:23.505220",
+      "start_time": "2026-01-18T23:48:10.683966",
+      "end_time": "2026-01-18T23:50:23.505208",
+      "duration": 132.8203815072775,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.015283999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "4035f677-01ab-4b5e-90d5-7adb3bbde3b9",
+      "task_id": "[service_issue]airplane_mode_on|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]",
+      "timestamp": "2026-01-18T23:51:59.328131",
+      "start_time": "2026-01-18T23:50:24.245589",
+      "end_time": "2026-01-18T23:51:59.328114",
+      "duration": 95.08180283755064,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.015121999999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "1f5d34d6-a78c-4f56-b357-9224dd14ae43",
+      "task_id": "[service_issue]break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+      "timestamp": "2026-01-18T23:52:22.798609",
+      "start_time": "2026-01-18T23:45:06.017314",
+      "end_time": "2026-01-18T23:52:22.798592",
+      "duration": 436.77863959409297,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.14987599999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "9d10c8fd-1c39-447b-960a-5392c46a636e",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:None]",
+      "timestamp": "2026-01-18T23:53:47.825576",
+      "start_time": "2026-01-18T23:52:23.623928",
+      "end_time": "2026-01-18T23:53:47.825564",
+      "duration": 84.20106539689004,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.014573999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "43fb68e9-dd61-4448-ace2-e1c7f794c4a3",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|unseat_sim_card[PERSONA:None]",
+      "timestamp": "2026-01-18T23:54:13.656958",
+      "start_time": "2026-01-18T23:48:29.049441",
+      "end_time": "2026-01-18T23:54:13.656943",
+      "duration": 344.60577543079853,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.102048,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "ecfcd8b0-cfd7-4004-9469-44126a5b36c6",
+      "task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]",
+      "timestamp": "2026-01-18T23:56:30.736463",
+      "start_time": "2026-01-18T23:53:48.590189",
+      "end_time": "2026-01-18T23:56:30.736444",
+      "duration": 162.14515790343285,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.030872,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "9724d7cd-21e6-4b85-ac15-1d1aa080b604",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Easy]",
+      "timestamp": "2026-01-18T23:56:48.888185",
+      "start_time": "2026-01-18T23:54:14.478570",
+      "end_time": "2026-01-18T23:56:48.888174",
+      "duration": 154.40866730362177,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.022599999999999995,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "6a83ca02-bc54-4429-a55e-cc1a0d82bb45",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Hard]",
+      "timestamp": "2026-01-18T23:57:58.896487",
+      "start_time": "2026-01-18T23:52:00.083267",
+      "end_time": "2026-01-18T23:57:58.896471",
+      "duration": 358.8105920162052,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.13545199999999996,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "05482e3d-e7de-4644-a0c8-5fb7f462ce68",
+      "task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions[PERSONA:Hard]",
+      "timestamp": "2026-01-19T00:00:42.729809",
+      "start_time": "2026-01-18T23:56:31.575059",
+      "end_time": "2026-01-19T00:00:42.729786",
+      "duration": 251.1527622062713,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.162506,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "dc20c87c-6b1b-4eee-b4fb-b3097292ea28",
+      "task_id": "[mms_issue]break_app_sms_permission|data_mode_off[PERSONA:None]",
+      "timestamp": "2026-01-19T00:04:37.858014",
+      "start_time": "2026-01-18T23:56:49.673895",
+      "end_time": "2026-01-19T00:04:37.857999",
+      "duration": 468.18106884136796,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.20769400000000002,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "3de40536-388e-463e-a3d9-d23f92b77816",
+      "task_id": "[mms_issue]bad_network_preference|break_app_both_permissions[PERSONA:Easy]",
+      "timestamp": "2026-01-19T00:06:06.662268",
+      "start_time": "2026-01-19T00:00:43.590301",
+      "end_time": "2026-01-19T00:06:06.662254",
+      "duration": 323.0698435213417,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.13175199999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "0216e641-30f2-453f-98f8-6926cede0be8",
+      "task_id": "[mms_issue]break_apn_mms_setting|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T00:06:51.243295",
+      "start_time": "2026-01-18T23:57:59.761635",
+      "end_time": "2026-01-19T00:06:51.243279",
+      "duration": 531.4793387558311,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.23462799999999995,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "a250c463-7996-42ca-98ca-428066cd4722",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "timestamp": "2026-01-19T00:08:17.253231",
+      "start_time": "2026-01-19T00:06:07.571007",
+      "end_time": "2026-01-19T00:08:17.253213",
+      "duration": 129.6812859568745,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.027727999999999996,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "bcce4087-9b39-4164-bdf7-ae912d9fddac",
+      "task_id": "[mms_issue]airplane_mode_on|bad_wifi_calling|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T00:12:30.978522",
+      "start_time": "2026-01-19T00:04:38.681935",
+      "end_time": "2026-01-19T00:12:30.978501",
+      "duration": 472.2940191067755,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.227606,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "0caeeb15-dd02-40ea-83bb-1cc4decd3797",
+      "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "timestamp": "2026-01-19T00:14:12.819442",
+      "start_time": "2026-01-19T00:06:52.053852",
+      "end_time": "2026-01-19T00:14:12.819425",
+      "duration": 440.7634873408824,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.165004,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "07fd3096-a6a6-4911-92f5-21e826428ea9",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_app_storage_permission|data_mode_off|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T00:17:06.593920",
+      "start_time": "2026-01-19T00:12:31.853936",
+      "end_time": "2026-01-19T00:17:06.593899",
+      "duration": 274.7379778344184,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.08357200000000001,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "15b771c1-ff51-4afa-b6b8-f921da624e52",
+      "task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T00:17:10.148702",
+      "start_time": "2026-01-19T00:08:18.110106",
+      "end_time": "2026-01-19T00:17:10.148685",
+      "duration": 532.0350477416068,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.190624,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "8859a2bf-5f1a-48a0-bd8e-d8c459c1725a",
+      "task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T00:18:18.825997",
+      "start_time": "2026-01-19T00:17:07.480970",
+      "end_time": "2026-01-19T00:18:18.825987",
+      "duration": 71.34452026896179,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.008309999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 9,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "95ffbc88-6e6b-4a51-aa53-c224099aab7e",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "timestamp": "2026-01-19T00:25:29.522329",
+      "start_time": "2026-01-19T00:14:13.715669",
+      "end_time": "2026-01-19T00:25:29.522306",
+      "duration": 675.803057204932,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.17630599999999996,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "f77b8c79-db4a-4d9c-838e-c8b55d0fe329",
+      "task_id": "[mms_issue]airplane_mode_on|bad_wifi_calling|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T00:30:44.586634",
+      "start_time": "2026-01-19T00:17:11.014574",
+      "end_time": "2026-01-19T00:30:44.586614",
+      "duration": 813.5706474035978,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.045342,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 8,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "01b1b5c1-a480-47bc-8055-2148d5f0fe68",
+      "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T00:31:39.553487",
+      "start_time": "2026-01-19T00:25:30.613436",
+      "end_time": "2026-01-19T00:31:39.553473",
+      "duration": 368.93781847693026,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.169206,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "7e26a01c-ae7e-4b0b-b7b4-ba9605474373",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+      "timestamp": "2026-01-19T00:40:03.214590",
+      "start_time": "2026-01-19T00:31:40.388215",
+      "end_time": "2026-01-19T00:40:03.214566",
+      "duration": 502.8228260204196,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.23234399999999994,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 9,
+          "reward_total": 9.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "4a4d2ffd-9d68-491e-8e94-71f39b2610d2",
+      "task_id": "[mobile_data_issue]data_saver_mode_on|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T00:45:59.137376",
+      "start_time": "2026-01-19T00:40:04.433315",
+      "end_time": "2026-01-19T00:45:59.137352",
+      "duration": 354.7020411975682,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.08275799999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "8b4af20b-5759-4a2d-a434-2dbb59e3c022",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T00:46:43.379872",
+      "start_time": "2026-01-19T00:18:19.757879",
+      "end_time": "2026-01-19T00:46:43.379846",
+      "duration": 1703.6130371801555,
+      "termination_reason": "max_steps",
+      "agent_cost": 0.0,
+      "user_cost": 1.2729419999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {},
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "reward_breakdown": {}
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "d140ad94-1975-4d19-99c9-2edbb0d1ee03",
+      "task_id": "[mobile_data_issue]airplane_mode_on|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "timestamp": "2026-01-19T00:48:25.236525",
+      "start_time": "2026-01-19T00:46:00.208137",
+      "end_time": "2026-01-19T00:48:25.236507",
+      "duration": 145.02715359814465,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.07348400000000001,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "14c63445-58b9-4db5-9c39-ea7c064529dc",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "timestamp": "2026-01-19T00:50:23.862423",
+      "start_time": "2026-01-19T00:30:45.491703",
+      "end_time": "2026-01-19T00:50:23.862402",
+      "duration": 1178.3665115348995,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.27691199999999994,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 7,
+          "reward_total": 7.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "fa35eb0f-345c-41ab-933e-dbea44952c5a",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on[PERSONA:Hard]",
+      "timestamp": "2026-01-19T00:50:31.966719",
+      "start_time": "2026-01-19T00:48:26.168611",
+      "end_time": "2026-01-19T00:50:31.966708",
+      "duration": 125.79729107953608,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.031233999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "95f2deba-83a3-4961-a47d-646f220ab3a6",
+      "task_id": "[mobile_data_issue]airplane_mode_on|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T00:52:18.240635",
+      "start_time": "2026-01-19T00:50:33.075324",
+      "end_time": "2026-01-19T00:52:18.240620",
+      "duration": 105.1646530739963,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.019746,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "1bc870cc-b59b-4c06-aa12-c70983ed01b4",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T00:53:22.488338",
+      "start_time": "2026-01-19T00:46:43.989430",
+      "end_time": "2026-01-19T00:53:22.488317",
+      "duration": 398.49670266360044,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.2252,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "d6433908-d9d0-4459-ba2c-c045bc5cccd6",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T00:53:42.212980",
+      "start_time": "2026-01-19T00:50:24.968396",
+      "end_time": "2026-01-19T00:53:42.212964",
+      "duration": 197.24299874901772,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.078054,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "5a689f18-26e7-4300-8986-a89626f015c1",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T00:57:04.824772",
+      "start_time": "2026-01-19T00:52:19.211263",
+      "end_time": "2026-01-19T00:57:04.824751",
+      "duration": 285.61127248965204,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.10446,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "a314fc7a-350a-4804-9401-e79641e8a0c2",
+      "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin[PERSONA:Easy]",
+      "timestamp": "2026-01-19T00:59:05.714012",
+      "start_time": "2026-01-19T00:57:06.021139",
+      "end_time": "2026-01-19T00:59:05.713996",
+      "duration": 119.69176540896297,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.030827999999999994,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "b8611554-b305-4934-83f3-ef8fa9c74463",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T01:01:25.534369",
+      "start_time": "2026-01-19T00:53:43.189634",
+      "end_time": "2026-01-19T01:01:25.534344",
+      "duration": 462.34074364602566,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.25534,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "8b8f3adf-f8d3-49e5-abdf-b1b5f1fa8be9",
+      "task_id": "[service_issue]airplane_mode_on|overdue_bill_suspension[PERSONA:None]",
+      "timestamp": "2026-01-19T01:02:06.776182",
+      "start_time": "2026-01-19T00:59:06.753366",
+      "end_time": "2026-01-19T01:02:06.776170",
+      "duration": 180.02165214531124,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.026947999999999996,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "8bdad24a-1dfc-4ff1-81d7-82bfc4372de0",
+      "task_id": "[service_issue]contract_end_suspension|unseat_sim_card[PERSONA:Hard]",
+      "timestamp": "2026-01-19T01:03:26.007148",
+      "start_time": "2026-01-19T01:02:07.865359",
+      "end_time": "2026-01-19T01:03:26.007137",
+      "duration": 78.14120444655418,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.012531999999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "dfd66170-1226-4d93-b466-e167e15de8cc",
+      "task_id": "[service_issue]break_apn_settings|lock_sim_card_pin[PERSONA:None]",
+      "timestamp": "2026-01-19T01:04:44.727773",
+      "start_time": "2026-01-19T01:03:27.118692",
+      "end_time": "2026-01-19T01:04:44.727760",
+      "duration": 77.6083753798157,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.013822000000000001,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "cc44d334-db10-4c66-96aa-29a329ff4ded",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T01:05:34.266286",
+      "start_time": "2026-01-19T00:53:23.898108",
+      "end_time": "2026-01-19T01:05:34.266268",
+      "duration": 730.3621321897954,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.4667119999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "6a6f35d7-238f-4884-bff0-90e1315e114b",
+      "task_id": "[service_issue]overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]",
+      "timestamp": "2026-01-19T01:06:43.851124",
+      "start_time": "2026-01-19T01:01:26.572099",
+      "end_time": "2026-01-19T01:06:43.851106",
+      "duration": 317.2758869472891,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.16448799999999997,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "8ff04e5a-ec2f-438f-bbc4-19bb4ad933a6",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|overdue_bill_suspension[PERSONA:None]",
+      "timestamp": "2026-01-19T01:07:59.829924",
+      "start_time": "2026-01-19T01:05:35.377502",
+      "end_time": "2026-01-19T01:07:59.829914",
+      "duration": 144.45147369243205,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.019883999999999995,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "d98b659d-3414-41be-a96f-0597e818c8fa",
+      "task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]",
+      "timestamp": "2026-01-19T01:08:52.895989",
+      "start_time": "2026-01-19T01:08:00.944245",
+      "end_time": "2026-01-19T01:08:52.895978",
+      "duration": 51.951288018375635,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.016138,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "ed464562-ab34-4071-9ecf-c913dcc2dc47",
+      "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+      "timestamp": "2026-01-19T01:08:54.489465",
+      "start_time": "2026-01-19T01:04:45.756657",
+      "end_time": "2026-01-19T01:08:54.489449",
+      "duration": 248.7309234868735,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.077594,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "ae5524f4-9875-46d1-aec8-58d5a32c4068",
+      "task_id": "[service_issue]break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+      "timestamp": "2026-01-19T01:09:28.962005",
+      "start_time": "2026-01-19T01:06:44.998324",
+      "end_time": "2026-01-19T01:09:28.961987",
+      "duration": 163.96230111271143,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.029322,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "fc7c4fcb-1bc9-4fce-95de-c0f2b08a8750",
+      "task_id": "[service_issue]airplane_mode_on|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]",
+      "timestamp": "2026-01-19T01:12:05.356268",
+      "start_time": "2026-01-19T01:08:55.699527",
+      "end_time": "2026-01-19T01:12:05.356249",
+      "duration": 189.6549714822322,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.065068,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "9b1eb99a-0a9d-47fd-a3b9-7affc0be0bb3",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:None]",
+      "timestamp": "2026-01-19T01:12:54.992551",
+      "start_time": "2026-01-19T01:12:06.393029",
+      "end_time": "2026-01-19T01:12:54.992537",
+      "duration": 48.59908399172127,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.008795999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "192cab99-d301-449d-8328-ea22d03e8eb1",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Hard]",
+      "timestamp": "2026-01-19T01:13:43.369912",
+      "start_time": "2026-01-19T01:09:30.139485",
+      "end_time": "2026-01-19T01:13:43.369897",
+      "duration": 253.22846237011254,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.08706799999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "5364e7d7-5eba-453d-b5a6-7d91d2db0809",
+      "task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]",
+      "timestamp": "2026-01-19T01:14:35.217052",
+      "start_time": "2026-01-19T01:12:56.096846",
+      "end_time": "2026-01-19T01:14:35.217042",
+      "duration": 99.1195670440793,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.009854,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "3c3f713c-f4b3-4128-98a8-327f3ebe1ac9",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Easy]",
+      "timestamp": "2026-01-19T01:16:33.662891",
+      "start_time": "2026-01-19T01:13:44.372844",
+      "end_time": "2026-01-19T01:16:33.662873",
+      "duration": 169.28874807618558,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.03315,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "29e05b29-7448-4e9e-8068-703964870ce9",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|unseat_sim_card[PERSONA:None]",
+      "timestamp": "2026-01-19T01:16:48.466509",
+      "start_time": "2026-01-19T01:08:53.892597",
+      "end_time": "2026-01-19T01:16:48.466492",
+      "duration": 474.5712593756616,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.16130999999999995,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "828edd67-3bcb-4a98-91ec-56a69792fd94",
+      "task_id": "[mms_issue]break_apn_mms_setting|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T01:19:18.973109",
+      "start_time": "2026-01-19T01:16:49.475707",
+      "end_time": "2026-01-19T01:19:18.973097",
+      "duration": 149.49636007100344,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.02364,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "fa510026-baee-49a9-88af-f91452be5851",
+      "task_id": "[mms_issue]break_app_sms_permission|data_mode_off[PERSONA:None]",
+      "timestamp": "2026-01-19T01:19:46.077188",
+      "start_time": "2026-01-19T01:16:34.826591",
+      "end_time": "2026-01-19T01:19:46.077174",
+      "duration": 191.24926511198282,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.04736399999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "889037ae-7675-48b4-b7c3-479d885aa77b",
+      "task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions[PERSONA:Hard]",
+      "timestamp": "2026-01-19T01:23:47.934156",
+      "start_time": "2026-01-19T01:14:36.350680",
+      "end_time": "2026-01-19T01:23:47.934136",
+      "duration": 551.5800704788417,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.3268499999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "124e9471-2445-4b61-b9b9-47395ee3dc69",
+      "task_id": "[mms_issue]airplane_mode_on|bad_wifi_calling|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T01:26:12.782928",
+      "start_time": "2026-01-19T01:19:47.166692",
+      "end_time": "2026-01-19T01:26:12.782908",
+      "duration": 385.6142209675163,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.12416200000000001,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "d5590b8e-177f-4ee6-a12a-c2fd5e0c8708",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "timestamp": "2026-01-19T01:27:43.700744",
+      "start_time": "2026-01-19T01:23:49.233806",
+      "end_time": "2026-01-19T01:27:43.700722",
+      "duration": 234.46545318327844,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.032794000000000004,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "522f214f-492b-4cc7-9c45-4e432dc90f68",
+      "task_id": "[mms_issue]bad_network_preference|break_app_both_permissions[PERSONA:Easy]",
+      "timestamp": "2026-01-19T01:28:13.052567",
+      "start_time": "2026-01-19T01:19:20.378774",
+      "end_time": "2026-01-19T01:28:13.052544",
+      "duration": 532.6692356374115,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.26700199999999996,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "72322f6c-a916-4701-9816-2c08425cbf97",
+      "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "timestamp": "2026-01-19T01:33:13.468369",
+      "start_time": "2026-01-19T01:26:14.049888",
+      "end_time": "2026-01-19T01:33:13.468347",
+      "duration": 419.4160762038082,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.161758,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "6d3fd727-86ed-4ad4-b79a-122ee4b2876d",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_app_storage_permission|data_mode_off|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T01:33:51.588846",
+      "start_time": "2026-01-19T01:28:14.276126",
+      "end_time": "2026-01-19T01:33:51.588832",
+      "duration": 337.31034598499537,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.113568,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "ee8e042c-a99d-4f70-adde-cc7ad25d76c5",
+      "task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T01:35:01.659889",
+      "start_time": "2026-01-19T01:33:52.784668",
+      "end_time": "2026-01-19T01:35:01.659874",
+      "duration": 68.87470998428762,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.013909999999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 9,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "f881d4c4-4998-4370-b702-672c99c38fb4",
+      "task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T01:35:05.959650",
+      "start_time": "2026-01-19T01:27:44.893169",
+      "end_time": "2026-01-19T01:35:05.959634",
+      "duration": 441.0639323722571,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.18955400000000003,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "12205c4a-1698-4d32-89b7-6f80a61b8023",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "timestamp": "2026-01-19T01:41:30.953091",
+      "start_time": "2026-01-19T01:33:14.678023",
+      "end_time": "2026-01-19T01:41:30.953070",
+      "duration": 496.2722562048584,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.20509999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "f88b114b-68b5-4e06-8ff7-66b045e08f39",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T01:42:08.250479",
+      "start_time": "2026-01-19T01:35:07.115736",
+      "end_time": "2026-01-19T01:42:08.250455",
+      "duration": 421.13078447803855,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.214952,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 9,
+          "matched_count": 8,
+          "reward_total": 8.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "fe7e7cee-e425-4224-a696-9f54a04c6ce6",
+      "task_id": "[mms_issue]airplane_mode_on|bad_wifi_calling|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T01:42:32.487001",
+      "start_time": "2026-01-19T01:35:02.872583",
+      "end_time": "2026-01-19T01:42:32.486980",
+      "duration": 449.6119752880186,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.070974,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 8,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "63c12579-93a6-4af7-bf58-476891a1ad70",
+      "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T01:47:46.675906",
+      "start_time": "2026-01-19T01:41:32.241150",
+      "end_time": "2026-01-19T01:47:46.675889",
+      "duration": 374.43204477615654,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.105894,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "5cd3ee1c-1d7e-4857-a662-f3b33147b37e",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "timestamp": "2026-01-19T01:48:38.306113",
+      "start_time": "2026-01-19T01:42:09.373890",
+      "end_time": "2026-01-19T01:48:38.306086",
+      "duration": 388.9267426263541,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.11839999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "ee401d43-2a16-4596-b7df-1a0e2955275f",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+      "timestamp": "2026-01-19T01:49:13.258360",
+      "start_time": "2026-01-19T01:42:33.711108",
+      "end_time": "2026-01-19T01:49:13.258342",
+      "duration": 399.54363776370883,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.20243199999999997,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 8,
+          "reward_total": 8.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "afcde954-2e3e-45c4-a360-9caea2026f68",
+      "task_id": "[mobile_data_issue]data_saver_mode_on|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T01:51:17.831245",
+      "start_time": "2026-01-19T01:47:47.952129",
+      "end_time": "2026-01-19T01:51:17.831223",
+      "duration": 209.877491267398,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.08463200000000001,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "350ddb2e-c32b-428c-bbc2-0838785c8100",
+      "task_id": "[mobile_data_issue]airplane_mode_on|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "timestamp": "2026-01-19T01:52:13.418048",
+      "start_time": "2026-01-19T01:48:39.432892",
+      "end_time": "2026-01-19T01:52:13.418033",
+      "duration": 213.98360944911838,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.09306600000000001,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "3780f587-3d80-4a78-ad2f-c948cdf78b9e",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T01:53:55.295859",
+      "start_time": "2026-01-19T01:52:14.564374",
+      "end_time": "2026-01-19T01:53:55.295837",
+      "duration": 100.73066648468375,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.026926,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "a212d2ce-e3e3-4727-a3b7-686368ce2a54",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T01:54:06.931089",
+      "start_time": "2026-01-19T01:49:14.640488",
+      "end_time": "2026-01-19T01:54:06.931074",
+      "duration": 292.28824513964355,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.19092999999999996,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "eccb0e71-c2fc-4e4e-a2a4-b9e954a17e27",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on[PERSONA:Hard]",
+      "timestamp": "2026-01-19T01:55:18.548789",
+      "start_time": "2026-01-19T01:51:19.160198",
+      "end_time": "2026-01-19T01:55:18.548762",
+      "duration": 239.3853340242058,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.127324,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "5663109c-c3c4-4870-a6ad-4b94a7b3a159",
+      "task_id": "[mobile_data_issue]airplane_mode_on|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T01:59:01.910983",
+      "start_time": "2026-01-19T01:53:56.504306",
+      "end_time": "2026-01-19T01:59:01.910958",
+      "duration": 305.40476052090526,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.133834,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "b61d8963-7ada-4666-a57f-e529ccd9658f",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:01:29.028093",
+      "start_time": "2026-01-19T01:54:08.095712",
+      "end_time": "2026-01-19T02:01:29.028070",
+      "duration": 440.9295229520649,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.25384799999999996,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "64e5677a-c182-42d5-b899-586022cb1bde",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:04:15.236236",
+      "start_time": "2026-01-19T01:55:19.917189",
+      "end_time": "2026-01-19T02:04:15.236215",
+      "duration": 535.3159712273628,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.23279999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "b7df5e4f-8e80-4b58-9a70-23ce1b7b4c9f",
+      "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:04:32.185467",
+      "start_time": "2026-01-19T02:01:30.338788",
+      "end_time": "2026-01-19T02:04:32.185455",
+      "duration": 181.84523323364556,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.093488,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "f81eb16f-70f3-4d4d-9d68-09e8bac45260",
+      "task_id": "[service_issue]airplane_mode_on|overdue_bill_suspension[PERSONA:None]",
+      "timestamp": "2026-01-19T02:07:31.116345",
+      "start_time": "2026-01-19T02:04:16.597024",
+      "end_time": "2026-01-19T02:07:31.116321",
+      "duration": 194.51749814860523,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.056074,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "573583b8-b251-491c-baaf-c176116cf027",
+      "task_id": "[service_issue]overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:07:33.900941",
+      "start_time": "2026-01-19T02:04:33.393597",
+      "end_time": "2026-01-19T02:07:33.900930",
+      "duration": 180.5062468443066,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.03716799999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "aec3c216-010a-4774-895d-649524beb0f7",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:08:54.146320",
+      "start_time": "2026-01-19T01:59:03.127865",
+      "end_time": "2026-01-19T02:08:54.146293",
+      "duration": 591.0119472723454,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.491344,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "915730c4-dcf6-4a23-ad33-386b75429f4b",
+      "task_id": "[service_issue]break_apn_settings|lock_sim_card_pin[PERSONA:None]",
+      "timestamp": "2026-01-19T02:08:59.433680",
+      "start_time": "2026-01-19T02:07:35.144851",
+      "end_time": "2026-01-19T02:08:59.433664",
+      "duration": 84.28812366724014,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.022536,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "8077cafb-274c-4399-9e9c-8588ccacc984",
+      "task_id": "[service_issue]contract_end_suspension|unseat_sim_card[PERSONA:Hard]",
+      "timestamp": "2026-01-19T02:09:00.192546",
+      "start_time": "2026-01-19T02:07:32.487830",
+      "end_time": "2026-01-19T02:09:00.192524",
+      "duration": 87.70286370627582,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.026782,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "5a65c950-bebd-4a9b-8009-56d60e9c1971",
+      "task_id": "[service_issue]break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:12:48.561750",
+      "start_time": "2026-01-19T02:09:01.503587",
+      "end_time": "2026-01-19T02:12:48.561731",
+      "duration": 227.0565597899258,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.059657999999999996,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "6ac9a234-c462-4e1c-b1d2-6c627642d6a4",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|overdue_bill_suspension[PERSONA:None]",
+      "timestamp": "2026-01-19T02:13:09.861233",
+      "start_time": "2026-01-19T02:09:00.688257",
+      "end_time": "2026-01-19T02:13:09.861217",
+      "duration": 249.170834120363,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.120722,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 7,
+          "reward_total": 7.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "04fbbfa4-3374-47e7-bbc2-03be4cb9a2c8",
+      "task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]",
+      "timestamp": "2026-01-19T02:14:30.297104",
+      "start_time": "2026-01-19T02:12:49.863013",
+      "end_time": "2026-01-19T02:14:30.297094",
+      "duration": 100.43349712900817,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.015399999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "34ce93fa-f1c6-49a7-b1cf-0b3861301502",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|unseat_sim_card[PERSONA:None]",
+      "timestamp": "2026-01-19T02:15:46.485895",
+      "start_time": "2026-01-19T02:13:11.020483",
+      "end_time": "2026-01-19T02:15:46.485880",
+      "duration": 155.46434314735234,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.047279999999999996,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "c75185de-e12b-4359-830a-92944928b745",
+      "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:16:47.525727",
+      "start_time": "2026-01-19T02:08:55.563225",
+      "end_time": "2026-01-19T02:16:47.525710",
+      "duration": 471.95988526567817,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.20229,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "1d9ff24e-4c5f-4e91-8b40-421779bea67b",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:None]",
+      "timestamp": "2026-01-19T02:17:56.858796",
+      "start_time": "2026-01-19T02:16:48.837767",
+      "end_time": "2026-01-19T02:17:56.858775",
+      "duration": 68.02051152847707,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.011897999999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "06713162-e1a4-4076-9dca-831e986e18ec",
+      "task_id": "[service_issue]airplane_mode_on|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]",
+      "timestamp": "2026-01-19T02:18:33.322113",
+      "start_time": "2026-01-19T02:14:31.675579",
+      "end_time": "2026-01-19T02:18:33.322098",
+      "duration": 241.6451433915645,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.051784,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "4b71ed5a-87f0-477e-8ec4-a5570a36a8b5",
+      "task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]",
+      "timestamp": "2026-01-19T02:19:14.980176",
+      "start_time": "2026-01-19T02:17:58.237990",
+      "end_time": "2026-01-19T02:19:14.980165",
+      "duration": 76.74153729900718,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.015524,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "42a67103-09a6-4056-a455-c7ae35ab17b6",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Hard]",
+      "timestamp": "2026-01-19T02:21:33.838462",
+      "start_time": "2026-01-19T02:15:48.029225",
+      "end_time": "2026-01-19T02:21:33.838436",
+      "duration": 345.8068196810782,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.094952,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "1128826e-a9a4-4f5e-8b41-f7d1ee292970",
+      "task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions[PERSONA:Hard]",
+      "timestamp": "2026-01-19T02:22:12.105380",
+      "start_time": "2026-01-19T02:19:16.421936",
+      "end_time": "2026-01-19T02:22:12.105366",
+      "duration": 175.68191623687744,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.112068,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "06ee66ec-703a-490b-974d-0efe9bb10025",
+      "task_id": "[mms_issue]break_app_sms_permission|data_mode_off[PERSONA:None]",
+      "timestamp": "2026-01-19T02:26:02.680124",
+      "start_time": "2026-01-19T02:21:35.259116",
+      "end_time": "2026-01-19T02:26:02.680103",
+      "duration": 267.41924878396094,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.10624399999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "c77fc3eb-8319-433c-829c-f8949774d560",
+      "task_id": "[mms_issue]break_apn_mms_setting|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T02:26:54.161692",
+      "start_time": "2026-01-19T02:22:13.328812",
+      "end_time": "2026-01-19T02:26:54.161678",
+      "duration": 280.8313415646553,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.10159200000000002,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "4bec0c28-26ca-42e0-8b0d-27e62aef2ad1",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:27:45.378972",
+      "start_time": "2026-01-19T02:18:34.551064",
+      "end_time": "2026-01-19T02:27:45.378952",
+      "duration": 550.824749533087,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.193632,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "dd2d9aa7-5c6a-4b05-b09e-5f93b595b877",
+      "task_id": "[mms_issue]bad_network_preference|break_app_both_permissions[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:30:00.231554",
+      "start_time": "2026-01-19T02:26:04.207073",
+      "end_time": "2026-01-19T02:30:00.231533",
+      "duration": 236.02255347557366,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.12490799999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "b8a66b27-85bd-4aa7-958d-9ae1896284ef",
+      "task_id": "[mms_issue]airplane_mode_on|bad_wifi_calling|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:30:54.066671",
+      "start_time": "2026-01-19T02:26:55.470278",
+      "end_time": "2026-01-19T02:30:54.066654",
+      "duration": 238.59446845762432,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.139986,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "247ca7d7-1e89-4829-8c0f-64fc3ae77890",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "timestamp": "2026-01-19T02:32:50.153103",
+      "start_time": "2026-01-19T02:27:46.795140",
+      "end_time": "2026-01-19T02:32:50.153086",
+      "duration": 303.3556672092527,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.144352,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "f2ea02df-45ff-4c8b-bbf9-ed0c48756662",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_app_storage_permission|data_mode_off|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:37:59.088662",
+      "start_time": "2026-01-19T02:32:51.522210",
+      "end_time": "2026-01-19T02:37:59.088639",
+      "duration": 307.56408963538706,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.14739,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "5fee7e21-a230-4635-a295-868269a8205c",
+      "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "timestamp": "2026-01-19T02:38:23.921411",
+      "start_time": "2026-01-19T02:30:01.642962",
+      "end_time": "2026-01-19T02:38:23.921395",
+      "duration": 502.2750686239451,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.26506399999999997,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "106252bf-bb4b-49a2-bd59-4dda289d3737",
+      "task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T02:39:19.389508",
+      "start_time": "2026-01-19T02:30:55.357219",
+      "end_time": "2026-01-19T02:39:19.389491",
+      "duration": 504.0282719079405,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.24999599999999994,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "684e7517-5b52-4a35-8637-70f5dae83807",
+      "task_id": "[mms_issue]airplane_mode_on|bad_wifi_calling|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T02:45:27.949501",
+      "start_time": "2026-01-19T02:39:20.836185",
+      "end_time": "2026-01-19T02:45:27.949478",
+      "duration": 367.1110446713865,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.137594,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 8,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "1a6cc5f0-22ca-4130-b4c5-b101bb73015b",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "timestamp": "2026-01-19T02:46:03.130229",
+      "start_time": "2026-01-19T02:38:00.566464",
+      "end_time": "2026-01-19T02:46:03.130214",
+      "duration": 482.5604576021433,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.29922999999999994,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "a1b260b4-0e80-4180-88bb-9b898303bfe1",
+      "task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T02:46:21.953755",
+      "start_time": "2026-01-19T02:38:25.466589",
+      "end_time": "2026-01-19T02:46:21.953737",
+      "duration": 476.4840546902269,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.23455600000000001,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 9,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "25cd71fd-e620-44bc-a5a0-f6c0608e2c7a",
+      "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:47:02.065509",
+      "start_time": "2026-01-19T02:46:04.508444",
+      "end_time": "2026-01-19T02:47:02.065497",
+      "duration": 57.55647842027247,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.018349999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "e24bb350-d567-4af2-b847-b5f6c5f857ad",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:50:32.588099",
+      "start_time": "2026-01-19T02:47:03.490206",
+      "end_time": "2026-01-19T02:50:32.588086",
+      "duration": 209.09630336612463,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.078848,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "31eccda2-bdbe-46f0-858c-a1fa5e439746",
+      "task_id": "[mobile_data_issue]data_saver_mode_on|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:51:51.821759",
+      "start_time": "2026-01-19T02:50:34.062171",
+      "end_time": "2026-01-19T02:51:51.821748",
+      "duration": 77.75894268788397,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.022080000000000002,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "98da3c7a-3238-4e14-a13c-144ce3f1852b",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T02:52:39.515694",
+      "start_time": "2026-01-19T02:45:29.360572",
+      "end_time": "2026-01-19T02:52:39.515675",
+      "duration": 430.1500459667295,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.18899999999999997,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 9,
+          "matched_count": 8,
+          "reward_total": 8.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "7b39b8ff-34cd-4129-8ccd-c0f4fe2b090e",
+      "task_id": "[mobile_data_issue]airplane_mode_on|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "timestamp": "2026-01-19T02:52:54.346920",
+      "start_time": "2026-01-19T02:51:53.286527",
+      "end_time": "2026-01-19T02:52:54.346904",
+      "duration": 61.05987039580941,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.02153,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "cbd0db9e-e376-4eb1-85bf-5a5be4867517",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "timestamp": "2026-01-19T02:53:41.819510",
+      "start_time": "2026-01-19T02:46:23.430878",
+      "end_time": "2026-01-19T02:53:41.819489",
+      "duration": 438.3825911656022,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.168916,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 9,
+          "reward_total": 9.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "b7bd0a2c-97dc-4db7-ad17-70b43d97f272",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on[PERSONA:Hard]",
+      "timestamp": "2026-01-19T02:54:26.596423",
+      "start_time": "2026-01-19T02:52:55.829585",
+      "end_time": "2026-01-19T02:54:26.596409",
+      "duration": 90.76616259664297,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.028129999999999995,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "99a7b8b9-0758-41ac-9a2c-ddf2c45243d2",
+      "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T02:55:01.925067",
+      "start_time": "2026-01-19T02:53:43.249569",
+      "end_time": "2026-01-19T02:55:01.925053",
+      "duration": 78.67460627108812,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.020952,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "bee6e199-a793-44c3-866b-c4fa3b8ac53b",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T02:55:56.207308",
+      "start_time": "2026-01-19T02:55:03.441268",
+      "end_time": "2026-01-19T02:55:56.207294",
+      "duration": 52.76558896899223,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.016565999999999997,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "d0c3c30c-f1f3-4ad5-84e5-2501a28731b3",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T02:58:07.637430",
+      "start_time": "2026-01-19T02:52:41.288646",
+      "end_time": "2026-01-19T02:58:07.637415",
+      "duration": 326.34705245681107,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.10309,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "4abf3dbf-c58b-4638-a912-0cae0e108423",
+      "task_id": "[mobile_data_issue]airplane_mode_on|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T03:02:25.612095",
+      "start_time": "2026-01-19T02:54:28.043241",
+      "end_time": "2026-01-19T03:02:25.612073",
+      "duration": 477.56564737670124,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.3369059999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "37ed4533-0270-4a26-ae94-5107077c922d",
+      "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T03:02:45.928999",
+      "start_time": "2026-01-19T02:55:57.765904",
+      "end_time": "2026-01-19T03:02:45.928984",
+      "duration": 408.1608890593052,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.14854799999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "156fe5ad-0544-4d16-8130-821debc48e74",
+      "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T03:03:33.108874",
+      "start_time": "2026-01-19T02:58:09.171118",
+      "end_time": "2026-01-19T03:03:33.108856",
+      "duration": 323.9348574876785,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.18763799999999997,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 7,
+          "reward_total": 7.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "79d4d1bd-3edb-45e2-bf97-062b52fccf09",
+      "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin[PERSONA:Easy]",
+      "timestamp": "2026-01-19T03:03:52.959532",
+      "start_time": "2026-01-19T03:02:27.004291",
+      "end_time": "2026-01-19T03:03:52.959523",
+      "duration": 85.95459939911962,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.026874000000000002,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "569e7430-7058-4781-b134-25ce80b0f8dc",
+      "task_id": "[service_issue]airplane_mode_on|overdue_bill_suspension[PERSONA:None]",
+      "timestamp": "2026-01-19T03:05:34.434868",
+      "start_time": "2026-01-19T03:02:47.338101",
+      "end_time": "2026-01-19T03:05:34.434849",
+      "duration": 167.09520321525633,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.05902399999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "87734fe5-a741-427e-81f0-0675acce0425",
+      "task_id": "[service_issue]contract_end_suspension|unseat_sim_card[PERSONA:Hard]",
+      "timestamp": "2026-01-19T03:05:39.269182",
+      "start_time": "2026-01-19T03:03:54.573971",
+      "end_time": "2026-01-19T03:05:39.269169",
+      "duration": 104.6945585347712,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.027198,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "8db7c572-0f92-4acc-aa7c-01b8e4c9eb9e",
+      "task_id": "[service_issue]overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]",
+      "timestamp": "2026-01-19T03:06:40.189255",
+      "start_time": "2026-01-19T03:03:34.611506",
+      "end_time": "2026-01-19T03:06:40.189240",
+      "duration": 185.57620383240283,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.07973,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "0c201519-d389-4fde-8ee1-e38fcff25a23",
+      "task_id": "[service_issue]break_apn_settings|lock_sim_card_pin[PERSONA:None]",
+      "timestamp": "2026-01-19T03:07:58.866208",
+      "start_time": "2026-01-19T03:05:35.989188",
+      "end_time": "2026-01-19T03:07:58.866196",
+      "duration": 142.8759512770921,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.044461999999999995,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "e3dbf178-7bfa-42bb-b1b7-861657802c11",
+      "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+      "timestamp": "2026-01-19T03:09:19.301090",
+      "start_time": "2026-01-19T03:05:40.662303",
+      "end_time": "2026-01-19T03:09:19.301069",
+      "duration": 218.63742572627962,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.03957,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "33aebf32-aada-409a-bae7-9da3c54d80f7",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|overdue_bill_suspension[PERSONA:None]",
+      "timestamp": "2026-01-19T03:11:48.220558",
+      "start_time": "2026-01-19T03:06:41.797835",
+      "end_time": "2026-01-19T03:11:48.220536",
+      "duration": 306.4203215446323,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.11915399999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "f0096917-5543-4ce8-a2d1-90327f3c2874",
+      "task_id": "[service_issue]break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]",
+      "timestamp": "2026-01-19T03:12:15.145306",
+      "start_time": "2026-01-19T03:08:00.479769",
+      "end_time": "2026-01-19T03:12:15.145290",
+      "duration": 254.66384286805987,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.06785799999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "53d0b752-5cd7-4d9b-b329-6e9ed41e1d5f",
+      "task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]",
+      "timestamp": "2026-01-19T03:12:18.283889",
+      "start_time": "2026-01-19T03:09:20.905376",
+      "end_time": "2026-01-19T03:12:18.283872",
+      "duration": 177.3771155551076,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.043546,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "91b1fbd8-6a1a-4250-a54c-949cc44344b9",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|unseat_sim_card[PERSONA:None]",
+      "timestamp": "2026-01-19T03:14:16.758501",
+      "start_time": "2026-01-19T03:11:49.771856",
+      "end_time": "2026-01-19T03:14:16.758481",
+      "duration": 146.98532051965594,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.05252799999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "7a74ee59-3fe8-4c05-8566-765414712dd8",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:None]",
+      "timestamp": "2026-01-19T03:15:28.248360",
+      "start_time": "2026-01-19T03:14:18.505473",
+      "end_time": "2026-01-19T03:15:28.248348",
+      "duration": 69.74229977093637,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.011408,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "80866d45-0216-4ba1-97bc-589a16abc371",
+      "task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]",
+      "timestamp": "2026-01-19T03:16:35.081306",
+      "start_time": "2026-01-19T03:15:29.813550",
+      "end_time": "2026-01-19T03:16:35.081289",
+      "duration": 65.26713964156806,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.010224,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "9fca2012-5f16-4982-b290-695b13c4d682",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Hard]",
+      "timestamp": "2026-01-19T03:17:11.057307",
+      "start_time": "2026-01-19T03:12:19.743367",
+      "end_time": "2026-01-19T03:17:11.057288",
+      "duration": 291.31129150278866,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.117164,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "032c467c-3bfc-4713-85ae-66a3fee27554",
+      "task_id": "[service_issue]airplane_mode_on|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]",
+      "timestamp": "2026-01-19T03:18:44.825304",
+      "start_time": "2026-01-19T03:12:16.563203",
+      "end_time": "2026-01-19T03:18:44.825283",
+      "duration": 388.2590974997729,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.201158,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "816af1b7-06f3-44d2-8416-b029d1bbe62c",
+      "task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Easy]",
+      "timestamp": "2026-01-19T03:20:06.325527",
+      "start_time": "2026-01-19T03:16:36.659696",
+      "end_time": "2026-01-19T03:20:06.325511",
+      "duration": 209.66405306756496,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.060829999999999995,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0,
+          "ACTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "19a4189a-895a-491d-a78c-dbc8e4e0c51d",
+      "task_id": "[mms_issue]break_app_sms_permission|data_mode_off[PERSONA:None]",
+      "timestamp": "2026-01-19T03:21:58.773806",
+      "start_time": "2026-01-19T03:18:46.408224",
+      "end_time": "2026-01-19T03:21:58.773787",
+      "duration": 192.36406521126628,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.090122,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "86a454fd-17bb-483b-93b3-8fb180ab010e",
+      "task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions[PERSONA:Hard]",
+      "timestamp": "2026-01-19T03:22:12.239150",
+      "start_time": "2026-01-19T03:17:12.568387",
+      "end_time": "2026-01-19T03:22:12.239131",
+      "duration": 299.6681929100305,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.13049999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "b1e8c3cf-ab28-4379-885c-ddef5862c772",
+      "task_id": "[mms_issue]break_apn_mms_setting|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T03:24:43.823184",
+      "start_time": "2026-01-19T03:20:07.935327",
+      "end_time": "2026-01-19T03:24:43.823167",
+      "duration": 275.88589295372367,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.131602,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "615a337c-0acf-4a97-948d-fa91e39cb57f",
+      "task_id": "[mms_issue]bad_network_preference|break_app_both_permissions[PERSONA:Easy]",
+      "timestamp": "2026-01-19T03:26:34.181264",
+      "start_time": "2026-01-19T03:22:00.374119",
+      "end_time": "2026-01-19T03:26:34.181243",
+      "duration": 273.8051391541958,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.12583,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "dc40bd36-4b7f-45ae-a0ce-ba827530d69b",
+      "task_id": "[mms_issue]airplane_mode_on|bad_wifi_calling|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T03:27:09.437590",
+      "start_time": "2026-01-19T03:22:13.805412",
+      "end_time": "2026-01-19T03:27:09.437570",
+      "duration": 295.6304908618331,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.10656199999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "74cd6554-ea09-4216-8175-3b0a5747197c",
+      "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "timestamp": "2026-01-19T03:30:52.532394",
+      "start_time": "2026-01-19T03:24:45.292237",
+      "end_time": "2026-01-19T03:30:52.532377",
+      "duration": 367.2369451597333,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.17331399999999997,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "fe9f4233-2700-463b-9237-b4ed356802e7",
+      "task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T03:32:17.601102",
+      "start_time": "2026-01-19T03:27:10.956433",
+      "end_time": "2026-01-19T03:32:17.601085",
+      "duration": 306.6420174948871,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.13550399999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "a43ec4fc-9863-43f5-a15c-262411ba07a5",
+      "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "timestamp": "2026-01-19T03:33:39.023663",
+      "start_time": "2026-01-19T03:26:36.017579",
+      "end_time": "2026-01-19T03:33:39.023641",
+      "duration": 423.00349952466786,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.16230799999999995,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "cf379c82-5b65-4df8-99ba-c035bfbaa027",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_app_storage_permission|data_mode_off|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T03:36:19.268702",
+      "start_time": "2026-01-19T03:30:54.163978",
+      "end_time": "2026-01-19T03:36:19.268686",
+      "duration": 325.1020760573447,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.19159599999999996,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "b89a8a7d-bdd3-4626-a50a-56e78f802c76",
+      "task_id": "[mms_issue]airplane_mode_on|bad_wifi_calling|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T03:39:39.415846",
+      "start_time": "2026-01-19T03:36:21.024107",
+      "end_time": "2026-01-19T03:39:39.415829",
+      "duration": 198.39034913294017,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.056954,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 8,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "208b7e51-9b62-45ed-980d-e29dcf38dd1c",
+      "task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]",
+      "timestamp": "2026-01-19T03:41:20.370147",
+      "start_time": "2026-01-19T03:33:40.748376",
+      "end_time": "2026-01-19T03:41:20.370109",
+      "duration": 459.61849093809724,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.19199999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 9,
+          "matched_count": 8,
+          "reward_total": 8.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "fc805e90-3c1b-4a46-aca8-655a54b76aac",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]",
+      "timestamp": "2026-01-19T03:43:15.152370",
+      "start_time": "2026-01-19T03:32:19.354090",
+      "end_time": "2026-01-19T03:43:15.152347",
+      "duration": 655.7945101261139,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.349858,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "d28fa404-fb0d-44cd-9426-cb0b0342bfd5",
+      "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Easy]",
+      "timestamp": "2026-01-19T03:44:17.183536",
+      "start_time": "2026-01-19T03:41:22.132921",
+      "end_time": "2026-01-19T03:44:17.183521",
+      "duration": 175.04919066093862,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.058912,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "ca34d616-1f78-4940-85d3-ad79b1d39728",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]",
+      "timestamp": "2026-01-19T03:47:55.691243",
+      "start_time": "2026-01-19T03:39:41.113882",
+      "end_time": "2026-01-19T03:47:55.691219",
+      "duration": 494.57423235476017,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.227452,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "action_checks_summary": {
+          "count": 9,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "ca972de3-7ba9-409b-92dc-133df8394555",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]",
+      "timestamp": "2026-01-19T03:49:38.955095",
+      "start_time": "2026-01-19T03:44:18.854199",
+      "end_time": "2026-01-19T03:49:38.955079",
+      "duration": 320.097852403298,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.20423399999999997,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 10,
+          "reward_total": 10.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "c97dc52c-11aa-4486-90e8-723bb4187492",
+      "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:None]",
+      "timestamp": "2026-01-19T03:52:11.492180",
+      "start_time": "2026-01-19T03:43:16.901438",
+      "end_time": "2026-01-19T03:52:11.492152",
+      "duration": 534.5870952550322,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.179182,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 8,
+          "reward_total": 8.0
+        },
+        "reward_breakdown": {
+          "ENV_ASSERTION": 0.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    }
+  ]
+}

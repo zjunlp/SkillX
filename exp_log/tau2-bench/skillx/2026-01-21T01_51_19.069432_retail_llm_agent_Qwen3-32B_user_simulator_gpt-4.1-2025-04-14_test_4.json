@@ -1,0 +1,5469 @@
+{
+  "timestamp": "2026-01-21T01:51:19.188482",
+  "info": {
+    "git_commit": "unknown",
+    "num_trials": 4,
+    "max_steps": 200,
+    "max_errors": 10,
+    "seed": 300,
+    "agent_info": {
+      "implementation": "llm_agent",
+      "llm": "hosted_vllm/Qwen3-32B",
+      "llm_args": {
+        "temperature": 0.0
+      }
+    },
+    "user_info": {
+      "implementation": "user_simulator",
+      "llm": "gpt-4.1-2025-04-14",
+      "llm_args": {
+        "temperature": 0.0
+      }
+    },
+    "environment_info": {
+      "domain_name": "retail"
+    }
+  },
+  "simulations": [
+    {
+      "id": "23e533bd-1f9d-4f7a-9262-48079a2f1efb",
+      "task_id": "12",
+      "timestamp": "2026-01-21T01:53:40.883294",
+      "start_time": "2026-01-21T01:51:19.787047",
+      "end_time": "2026-01-21T01:53:40.883283",
+      "duration": 141.09562382567674,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.004616,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "e9efcba1-6b6b-46e1-8f0f-df949e70d6d5",
+      "task_id": "32",
+      "timestamp": "2026-01-21T01:55:08.435933",
+      "start_time": "2026-01-21T01:51:19.650039",
+      "end_time": "2026-01-21T01:55:08.435921",
+      "duration": 228.78491877019405,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.009588,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 13,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "206113c7-82fd-4e11-b594-dae73f0615eb",
+      "task_id": "26",
+      "timestamp": "2026-01-21T01:55:22.207521",
+      "start_time": "2026-01-21T01:51:19.837966",
+      "end_time": "2026-01-21T01:55:22.207509",
+      "duration": 242.36871370207518,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.0056099999999999995,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 8,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "84bbf86e-ac2b-4c62-83c8-f2eb2ea356fb",
+      "task_id": "18",
+      "timestamp": "2026-01-21T01:55:35.223016",
+      "start_time": "2026-01-21T01:51:19.808410",
+      "end_time": "2026-01-21T01:55:35.223002",
+      "duration": 255.41364683955908,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.008222,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "e59ce3e0-edc0-4256-9d72-c1653d449cac",
+      "task_id": "17",
+      "timestamp": "2026-01-21T01:55:54.154376",
+      "start_time": "2026-01-21T01:51:19.843709",
+      "end_time": "2026-01-21T01:55:54.154363",
+      "duration": 274.30981498397887,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.008308,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "2760cff1-8d83-404f-b754-f807ae81c19e",
+      "task_id": "33",
+      "timestamp": "2026-01-21T01:56:30.244505",
+      "start_time": "2026-01-21T01:51:19.688271",
+      "end_time": "2026-01-21T01:56:30.244494",
+      "duration": 310.55540242698044,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.013394,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "bf10c622-dc96-4e82-9d51-cd4e17273725",
+      "task_id": "9",
+      "timestamp": "2026-01-21T01:56:50.638708",
+      "start_time": "2026-01-21T01:51:19.685835",
+      "end_time": "2026-01-21T01:56:50.638696",
+      "duration": 330.95181178860366,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.011304,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "13cc28c1-38af-45bb-83f0-086336fbd29d",
+      "task_id": "40",
+      "timestamp": "2026-01-21T01:57:00.404017",
+      "start_time": "2026-01-21T01:55:22.656497",
+      "end_time": "2026-01-21T01:57:00.404006",
+      "duration": 97.74685125797987,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.005778,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "7f335149-401c-4125-a7ac-df9968d6ab81",
+      "task_id": "39",
+      "timestamp": "2026-01-21T01:57:02.809342",
+      "start_time": "2026-01-21T01:55:08.969275",
+      "end_time": "2026-01-21T01:57:02.809332",
+      "duration": 113.8396354271099,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.008256,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 0.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "9d5b1324-6e8c-4356-ab01-1527e896bd12",
+      "task_id": "27",
+      "timestamp": "2026-01-21T01:57:07.339147",
+      "start_time": "2026-01-21T01:51:19.826625",
+      "end_time": "2026-01-21T01:57:07.339135",
+      "duration": 347.51145871076733,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.012336,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "56b5c253-bb8e-4577-a65f-bcf6741d0d8b",
+      "task_id": "5",
+      "timestamp": "2026-01-21T01:57:29.765699",
+      "start_time": "2026-01-21T01:51:19.668090",
+      "end_time": "2026-01-21T01:57:29.765678",
+      "duration": 370.095593621023,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.016784,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "0c8dfc51-9915-40a2-90da-6e65c54a5dfe",
+      "task_id": "51",
+      "timestamp": "2026-01-21T01:59:07.911313",
+      "start_time": "2026-01-21T01:56:51.075745",
+      "end_time": "2026-01-21T01:59:07.911300",
+      "duration": 136.83471012301743,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.008072,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "5f8e1cf1-92ca-4f32-baab-3ca664179369",
+      "task_id": "45",
+      "timestamp": "2026-01-21T01:59:56.847976",
+      "start_time": "2026-01-21T01:55:54.585096",
+      "end_time": "2026-01-21T01:59:56.847964",
+      "duration": 242.26196546200663,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.012497999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "6f3f5e77-a879-48e7-8943-6f2d7f0c015c",
+      "task_id": "60",
+      "timestamp": "2026-01-21T02:00:58.703397",
+      "start_time": "2026-01-21T01:57:30.347465",
+      "end_time": "2026-01-21T02:00:58.703380",
+      "duration": 208.35472194757313,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.00544,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "5779320a-ef8e-40c0-8158-83612ae0c29e",
+      "task_id": "42",
+      "timestamp": "2026-01-21T02:01:17.196591",
+      "start_time": "2026-01-21T01:55:35.667299",
+      "end_time": "2026-01-21T02:01:17.196573",
+      "duration": 341.5275521297008,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.011841999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 9,
+          "reward_total": 9.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "2b7901bd-b589-4acf-a96d-663da665b5b1",
+      "task_id": "49",
+      "timestamp": "2026-01-21T02:01:47.410971",
+      "start_time": "2026-01-21T01:56:30.975198",
+      "end_time": "2026-01-21T02:01:47.410955",
+      "duration": 316.43465737532824,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.01449,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 7,
+          "reward_total": 7.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "56295092-1a16-431c-98df-d595a0c09ec4",
+      "task_id": "65",
+      "timestamp": "2026-01-21T02:02:27.909272",
+      "start_time": "2026-01-21T02:01:17.674733",
+      "end_time": "2026-01-21T02:02:27.909262",
+      "duration": 70.23417015187442,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.0033759999999999997,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "9d5516b7-9f46-4993-9fc9-e0ca9e7f08eb",
+      "task_id": "56",
+      "timestamp": "2026-01-21T02:02:38.928048",
+      "start_time": "2026-01-21T01:57:07.791745",
+      "end_time": "2026-01-21T02:02:38.928035",
+      "duration": 331.13521775603294,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.012431999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "dcc728ba-f012-451d-987d-ca8f4d9d1e0c",
+      "task_id": "55",
+      "timestamp": "2026-01-21T02:02:47.461062",
+      "start_time": "2026-01-21T01:57:03.292916",
+      "end_time": "2026-01-21T02:02:47.461046",
+      "duration": 344.1665782900527,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.016048,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 13,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "307d2882-26a9-4ba8-b34b-d4b419aa013b",
+      "task_id": "38",
+      "timestamp": "2026-01-21T02:03:14.613658",
+      "start_time": "2026-01-21T01:53:41.387662",
+      "end_time": "2026-01-21T02:03:14.613646",
+      "duration": 573.2245347155258,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.01463,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "2b1c705a-8df5-4e1a-aa11-7422b53917bb",
+      "task_id": "53",
+      "timestamp": "2026-01-21T02:03:18.673161",
+      "start_time": "2026-01-21T01:57:00.851096",
+      "end_time": "2026-01-21T02:03:18.673142",
+      "duration": 377.8202328691259,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.017220000000000003,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "11b09d5c-f99d-45ec-a315-d3024fa26891",
+      "task_id": "61",
+      "timestamp": "2026-01-21T02:03:52.559602",
+      "start_time": "2026-01-21T01:59:08.725356",
+      "end_time": "2026-01-21T02:03:52.559591",
+      "duration": 283.83359273243695,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.004358,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "4f774bda-77b8-4dda-9acc-a990763c0c93",
+      "task_id": "36",
+      "timestamp": "2026-01-21T02:04:01.002669",
+      "start_time": "2026-01-21T01:51:19.858834",
+      "end_time": "2026-01-21T02:04:01.002658",
+      "duration": 761.1423908760771,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.011469999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "725f246e-4593-4973-b826-6fc3447046e4",
+      "task_id": "68",
+      "timestamp": "2026-01-21T02:04:26.120517",
+      "start_time": "2026-01-21T02:01:47.939577",
+      "end_time": "2026-01-21T02:04:26.120502",
+      "duration": 158.1797245144844,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.005298,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "17c02055-7eb5-43fa-91b6-67cc3d8b3d1f",
+      "task_id": "64",
+      "timestamp": "2026-01-21T02:04:53.547411",
+      "start_time": "2026-01-21T02:00:59.144942",
+      "end_time": "2026-01-21T02:04:53.547401",
+      "duration": 234.40166472643614,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.0049239999999999996,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 8,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "199fcf58-c059-4cef-989d-b6d84235fe16",
+      "task_id": "77",
+      "timestamp": "2026-01-21T02:05:45.512903",
+      "start_time": "2026-01-21T02:03:15.169733",
+      "end_time": "2026-01-21T02:05:45.512892",
+      "duration": 150.34242237638682,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.005552,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "f96ba00a-fae9-4474-81d5-812130333ba8",
+      "task_id": "62",
+      "timestamp": "2026-01-21T02:06:21.175719",
+      "start_time": "2026-01-21T01:59:57.316751",
+      "end_time": "2026-01-21T02:06:21.175703",
+      "duration": 383.8580015357584,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.009309999999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "768a35dd-059c-46ff-8e4b-c052386ca76c",
+      "task_id": "70",
+      "timestamp": "2026-01-21T02:06:28.797189",
+      "start_time": "2026-01-21T02:02:28.480230",
+      "end_time": "2026-01-21T02:06:28.797165",
+      "duration": 240.3151876181364,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006133999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "db26ed95-46fb-4b12-84fd-126a5bcb3c56",
+      "task_id": "90",
+      "timestamp": "2026-01-21T02:07:09.441367",
+      "start_time": "2026-01-21T02:04:01.513202",
+      "end_time": "2026-01-21T02:07:09.441354",
+      "duration": 187.92733840830624,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.009141999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "14f7cdfe-8aba-42b2-b2b8-0984f52a65b4",
+      "task_id": "79",
+      "timestamp": "2026-01-21T02:07:32.776288",
+      "start_time": "2026-01-21T02:03:19.206963",
+      "end_time": "2026-01-21T02:07:32.776271",
+      "duration": 253.56773089431226,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.00972,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "cdc35429-f07b-4d20-bab7-abc94241941b",
+      "task_id": "71",
+      "timestamp": "2026-01-21T02:07:39.018358",
+      "start_time": "2026-01-21T02:02:39.478565",
+      "end_time": "2026-01-21T02:07:39.018337",
+      "duration": 299.5278995754197,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.01681,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "e7a5a6c4-077b-48a4-a30d-d3c69142d8f0",
+      "task_id": "74",
+      "timestamp": "2026-01-21T02:07:39.394679",
+      "start_time": "2026-01-21T02:02:48.294637",
+      "end_time": "2026-01-21T02:07:39.394666",
+      "duration": 291.0988961951807,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.012546,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "0c40b292-5529-4b60-bf83-795654a9c1ac",
+      "task_id": "94",
+      "timestamp": "2026-01-21T02:07:50.686845",
+      "start_time": "2026-01-21T02:04:26.649164",
+      "end_time": "2026-01-21T02:07:50.686823",
+      "duration": 204.03619917389005,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.009867999999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "3aae8e4d-20d9-4178-8627-59a74477d046",
+      "task_id": "97",
+      "timestamp": "2026-01-21T02:08:18.011252",
+      "start_time": "2026-01-21T02:04:54.153541",
+      "end_time": "2026-01-21T02:08:18.011238",
+      "duration": 203.8567540915683,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006212,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "1e56e9d4-ec89-4f76-b29d-594871a8e367",
+      "task_id": "12",
+      "timestamp": "2026-01-21T02:10:35.279218",
+      "start_time": "2026-01-21T02:07:51.247980",
+      "end_time": "2026-01-21T02:10:35.279202",
+      "duration": 164.0305329253897,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006364,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "456a9d98-cfa4-4955-b892-cd4ae505f569",
+      "task_id": "86",
+      "timestamp": "2026-01-21T02:10:36.201386",
+      "start_time": "2026-01-21T02:03:53.127991",
+      "end_time": "2026-01-21T02:10:36.201365",
+      "duration": 403.0719912694767,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.009798000000000001,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "8322b4e3-e08d-418c-86b9-704affee1aff",
+      "task_id": "108",
+      "timestamp": "2026-01-21T02:12:06.959702",
+      "start_time": "2026-01-21T02:07:09.965176",
+      "end_time": "2026-01-21T02:12:06.959690",
+      "duration": 296.9936742875725,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.005624,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "7adcb030-a1e2-4e61-b026-438bf048c6ce",
+      "task_id": "9",
+      "timestamp": "2026-01-21T02:13:50.121258",
+      "start_time": "2026-01-21T02:07:40.343334",
+      "end_time": "2026-01-21T02:13:50.121243",
+      "duration": 369.7769487313926,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.008239999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "52227344-ccc2-4bf8-82e5-4f5de7c03b1f",
+      "task_id": "102",
+      "timestamp": "2026-01-21T02:15:18.366620",
+      "start_time": "2026-01-21T02:06:29.368071",
+      "end_time": "2026-01-21T02:15:18.366608",
+      "duration": 528.9973113238811,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.012215999999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "308da03d-4bc7-4987-be1d-5f304969865a",
+      "task_id": "101",
+      "timestamp": "2026-01-21T02:15:56.661286",
+      "start_time": "2026-01-21T02:06:21.727983",
+      "end_time": "2026-01-21T02:15:56.661272",
+      "duration": 574.9320166166872,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.014916,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "dd0164b1-df94-4c86-ba84-bd808930f920",
+      "task_id": "100",
+      "timestamp": "2026-01-21T02:15:58.951155",
+      "start_time": "2026-01-21T02:05:46.052198",
+      "end_time": "2026-01-21T02:15:58.951140",
+      "duration": 612.897506964393,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.021348,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "9108d220-c21c-4095-850e-6cfd83c0bd17",
+      "task_id": "26",
+      "timestamp": "2026-01-21T02:16:17.052254",
+      "start_time": "2026-01-21T02:10:36.765301",
+      "end_time": "2026-01-21T02:16:17.052244",
+      "duration": 340.2860006717965,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.008254,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 8,
+          "matched_count": 7,
+          "reward_total": 7.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "d24122eb-40d3-4ef5-b891-31e08c6aed36",
+      "task_id": "18",
+      "timestamp": "2026-01-21T02:16:30.491436",
+      "start_time": "2026-01-21T02:10:36.013795",
+      "end_time": "2026-01-21T02:16:30.491426",
+      "duration": 354.47677190508693,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007965999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "fa4a1e1d-b7ad-48bf-a9eb-77f3e173bebe",
+      "task_id": "5",
+      "timestamp": "2026-01-21T02:18:05.532559",
+      "start_time": "2026-01-21T02:07:39.917233",
+      "end_time": "2026-01-21T02:18:05.532547",
+      "duration": 625.6140065910295,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.01743,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "84d54c73-733b-4286-af7e-de8c9832da84",
+      "task_id": "40",
+      "timestamp": "2026-01-21T02:18:28.030295",
+      "start_time": "2026-01-21T02:16:31.151952",
+      "end_time": "2026-01-21T02:18:28.030285",
+      "duration": 116.87771332357079,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006212,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "7e83f1ff-a1f9-484c-80b9-3aca822b861e",
+      "task_id": "39",
+      "timestamp": "2026-01-21T02:22:01.600571",
+      "start_time": "2026-01-21T02:16:17.605036",
+      "end_time": "2026-01-21T02:22:01.600554",
+      "duration": 343.9944749819115,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.0179,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "5dbad64f-7045-415c-b812-3a7fa0848e9b",
+      "task_id": "33",
+      "timestamp": "2026-01-21T02:22:50.414588",
+      "start_time": "2026-01-21T02:15:19.083089",
+      "end_time": "2026-01-21T02:22:50.414571",
+      "duration": 451.33051575161517,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.01936,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "541586d8-8f0f-484f-9633-ce060fa7e5df",
+      "task_id": "17",
+      "timestamp": "2026-01-21T02:23:06.744068",
+      "start_time": "2026-01-21T02:08:18.600324",
+      "end_time": "2026-01-21T02:23:06.744055",
+      "duration": 888.1429576650262,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006938,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "8706afb9-cc4e-4104-b770-9f08eddf36a8",
+      "task_id": "27",
+      "timestamp": "2026-01-21T02:24:01.326581",
+      "start_time": "2026-01-21T02:12:07.948323",
+      "end_time": "2026-01-21T02:24:01.326566",
+      "duration": 713.3765009455383,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.013236000000000001,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "f631d7d3-c8ca-4844-8744-4ec78b3eae0c",
+      "task_id": "36",
+      "timestamp": "2026-01-21T02:24:17.344392",
+      "start_time": "2026-01-21T02:15:57.224846",
+      "end_time": "2026-01-21T02:24:17.344381",
+      "duration": 500.1187007855624,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.010288,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "e65f3903-7f07-456b-a88b-3a9db29f72a7",
+      "task_id": "45",
+      "timestamp": "2026-01-21T02:24:40.444787",
+      "start_time": "2026-01-21T02:18:28.629697",
+      "end_time": "2026-01-21T02:24:40.444775",
+      "duration": 371.8142545642331,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.012725999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "e11ed6de-5b63-45a3-b7f4-e4bc39ab0a94",
+      "task_id": "42",
+      "timestamp": "2026-01-21T02:26:56.162363",
+      "start_time": "2026-01-21T02:18:06.106031",
+      "end_time": "2026-01-21T02:26:56.162347",
+      "duration": 530.0548316314816,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.014901999999999997,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 10,
+          "reward_total": 10.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "0a95260f-1c0b-4b98-b478-e4782616f0aa",
+      "task_id": "51",
+      "timestamp": "2026-01-21T02:26:58.722186",
+      "start_time": "2026-01-21T02:22:51.069332",
+      "end_time": "2026-01-21T02:26:58.722170",
+      "duration": 247.6518373992294,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.005953999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "c5096e84-ee97-4ff2-b5b1-34bc06c8f78d",
+      "task_id": "38",
+      "timestamp": "2026-01-21T02:27:16.777593",
+      "start_time": "2026-01-21T02:15:59.504390",
+      "end_time": "2026-01-21T02:27:16.777581",
+      "duration": 677.2718446776271,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.013635999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "97494e9e-b96c-42bb-bfe3-e9ad51843561",
+      "task_id": "62",
+      "timestamp": "2026-01-21T02:27:51.054174",
+      "start_time": "2026-01-21T02:26:59.358358",
+      "end_time": "2026-01-21T02:27:51.054164",
+      "duration": 51.69551916886121,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.002418,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 0.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "6104be56-b542-4b1b-b2aa-8e456b1e817c",
+      "task_id": "56",
+      "timestamp": "2026-01-21T02:28:22.402721",
+      "start_time": "2026-01-21T02:24:17.987581",
+      "end_time": "2026-01-21T02:28:22.402700",
+      "duration": 244.41358243487775,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.00794,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "20873a6f-f4d2-4562-9913-64831f46c7c5",
+      "task_id": "111",
+      "timestamp": "2026-01-21T02:28:24.127909",
+      "start_time": "2026-01-21T02:07:33.371550",
+      "end_time": "2026-01-21T02:28:24.127897",
+      "duration": 1250.755162872374,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.009891999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 0,
+      "seed": 626729
+    },
+    {
+      "id": "747e8612-013e-4ff2-bead-71e3728e69d0",
+      "task_id": "60",
+      "timestamp": "2026-01-21T02:28:25.448442",
+      "start_time": "2026-01-21T02:24:41.071861",
+      "end_time": "2026-01-21T02:28:25.448431",
+      "duration": 224.37590283341706,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.005466,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "9c306ac5-7a3d-4205-bd91-4da190cbcfc1",
+      "task_id": "49",
+      "timestamp": "2026-01-21T02:29:01.014142",
+      "start_time": "2026-01-21T02:22:02.378349",
+      "end_time": "2026-01-21T02:29:01.014130",
+      "duration": 418.6346286162734,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.013362,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 8,
+          "reward_total": 8.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "467696a2-8a70-4965-82a2-746e15828277",
+      "task_id": "53",
+      "timestamp": "2026-01-21T02:29:29.521357",
+      "start_time": "2026-01-21T02:23:07.419852",
+      "end_time": "2026-01-21T02:29:29.521345",
+      "duration": 382.1004621088505,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.011193999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "65a46f64-f52e-43e1-b437-2c5b82582f4f",
+      "task_id": "64",
+      "timestamp": "2026-01-21T02:30:36.121226",
+      "start_time": "2026-01-21T02:27:17.380521",
+      "end_time": "2026-01-21T02:30:36.121213",
+      "duration": 198.7398802936077,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006026,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 8,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "d1d2e795-8df0-4076-b1a4-f0f6a4ba6073",
+      "task_id": "68",
+      "timestamp": "2026-01-21T02:30:44.781823",
+      "start_time": "2026-01-21T02:28:23.160346",
+      "end_time": "2026-01-21T02:30:44.781813",
+      "duration": 141.62076276075095,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.0066879999999999995,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "c222802a-7baa-4488-9621-dfb9189c62dd",
+      "task_id": "61",
+      "timestamp": "2026-01-21T02:30:59.254651",
+      "start_time": "2026-01-21T02:26:56.884033",
+      "end_time": "2026-01-21T02:30:59.254620",
+      "duration": 242.35911080241203,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.005218,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "afc62013-9841-4fa2-86ea-f5246a5adb29",
+      "task_id": "65",
+      "timestamp": "2026-01-21T02:31:26.705397",
+      "start_time": "2026-01-21T02:27:51.675467",
+      "end_time": "2026-01-21T02:31:26.705381",
+      "duration": 215.02922216057777,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007426,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "62fe1684-05e9-4561-9b62-35625d5cc1cd",
+      "task_id": "70",
+      "timestamp": "2026-01-21T02:31:45.335812",
+      "start_time": "2026-01-21T02:28:24.723801",
+      "end_time": "2026-01-21T02:31:45.335802",
+      "duration": 200.61117326840758,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.005462,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "767be067-6dc1-4f66-96aa-2f4fe40e6a0d",
+      "task_id": "77",
+      "timestamp": "2026-01-21T02:32:31.698887",
+      "start_time": "2026-01-21T02:29:30.249084",
+      "end_time": "2026-01-21T02:32:31.698877",
+      "duration": 181.44907169789076,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.00567,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "fab0ae23-b67f-4e93-aa38-eb7fd72fda53",
+      "task_id": "55",
+      "timestamp": "2026-01-21T02:33:26.691066",
+      "start_time": "2026-01-21T02:24:02.001616",
+      "end_time": "2026-01-21T02:33:26.691050",
+      "duration": 564.686747726053,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.029042,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 13,
+          "matched_count": 12,
+          "reward_total": 12.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "71949bb1-9fed-4438-bfa3-c8a6451e49b8",
+      "task_id": "79",
+      "timestamp": "2026-01-21T02:34:04.926056",
+      "start_time": "2026-01-21T02:30:37.156461",
+      "end_time": "2026-01-21T02:34:04.926043",
+      "duration": 207.76883336436003,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006892,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "c774dd29-f5b6-486c-8bf5-f47bbbf1aa14",
+      "task_id": "32",
+      "timestamp": "2026-01-21T02:34:09.164056",
+      "start_time": "2026-01-21T02:13:50.868627",
+      "end_time": "2026-01-21T02:34:09.164035",
+      "duration": 1218.29347000923,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.029515999999999997,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 13,
+          "matched_count": 10,
+          "reward_total": 10.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "fb6ee760-4aca-4547-ba55-6713b852b1e7",
+      "task_id": "90",
+      "timestamp": "2026-01-21T02:34:22.840127",
+      "start_time": "2026-01-21T02:30:59.876261",
+      "end_time": "2026-01-21T02:34:22.840116",
+      "duration": 202.96303064003587,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.010335999999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "4bd1d160-dc2e-414e-b50a-c60ac2ff522d",
+      "task_id": "74",
+      "timestamp": "2026-01-21T02:34:40.795345",
+      "start_time": "2026-01-21T02:29:01.668565",
+      "end_time": "2026-01-21T02:34:40.795328",
+      "duration": 339.125312814489,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.012379999999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "d0525c95-f65a-4376-b9d2-81e1a295be64",
+      "task_id": "94",
+      "timestamp": "2026-01-21T02:34:52.297036",
+      "start_time": "2026-01-21T02:31:27.364829",
+      "end_time": "2026-01-21T02:34:52.297023",
+      "duration": 204.93127502221614,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006071999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "16176e06-66ef-4021-a7fe-2e309315f8e5",
+      "task_id": "71",
+      "timestamp": "2026-01-21T02:35:34.314959",
+      "start_time": "2026-01-21T02:28:26.046285",
+      "end_time": "2026-01-21T02:35:34.314941",
+      "duration": 428.26756094396114,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.009925999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "447be9af-c62c-429a-8162-b9294634d4e5",
+      "task_id": "12",
+      "timestamp": "2026-01-21T02:37:08.089362",
+      "start_time": "2026-01-21T02:35:34.967616",
+      "end_time": "2026-01-21T02:37:08.089352",
+      "duration": 93.12119704950601,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.004895999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "e72d62b5-4746-4cc1-8de9-dbec8d4bce70",
+      "task_id": "108",
+      "timestamp": "2026-01-21T02:37:40.647427",
+      "start_time": "2026-01-21T02:34:09.792004",
+      "end_time": "2026-01-21T02:37:40.647417",
+      "duration": 210.8547755079344,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.005430000000000001,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "3fc8a0b9-0305-41ed-90f4-feaa80fbcb17",
+      "task_id": "97",
+      "timestamp": "2026-01-21T02:38:06.137217",
+      "start_time": "2026-01-21T02:31:46.029522",
+      "end_time": "2026-01-21T02:38:06.137203",
+      "duration": 380.10623357538134,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007952,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "514dbb69-8944-40ef-99d3-25af72cec39e",
+      "task_id": "86",
+      "timestamp": "2026-01-21T02:39:17.620155",
+      "start_time": "2026-01-21T02:30:45.412185",
+      "end_time": "2026-01-21T02:39:17.620136",
+      "duration": 512.2045530993491,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007925999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "b8e024a8-2eeb-4f09-8bd2-0966006bddf2",
+      "task_id": "17",
+      "timestamp": "2026-01-21T02:40:03.203930",
+      "start_time": "2026-01-21T02:37:08.814586",
+      "end_time": "2026-01-21T02:40:03.203914",
+      "duration": 174.38813771214336,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.0066960000000000006,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "7eb047ba-1c15-4df4-b046-4f6d3b129521",
+      "task_id": "9",
+      "timestamp": "2026-01-21T02:40:39.451271",
+      "start_time": "2026-01-21T02:34:52.937551",
+      "end_time": "2026-01-21T02:40:39.451260",
+      "duration": 346.5126848174259,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.011418,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "0d1328da-3062-4cb4-a4af-f2cc262c67ac",
+      "task_id": "101",
+      "timestamp": "2026-01-21T02:41:13.767174",
+      "start_time": "2026-01-21T02:33:27.411755",
+      "end_time": "2026-01-21T02:41:13.767155",
+      "duration": 466.35395330376923,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.015934,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "ad18578f-8362-4087-951f-6d1ea262c9f9",
+      "task_id": "26",
+      "timestamp": "2026-01-21T02:41:15.705185",
+      "start_time": "2026-01-21T02:38:06.837525",
+      "end_time": "2026-01-21T02:41:15.705173",
+      "duration": 188.86687676794827,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.0039440000000000005,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 8,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "74f91c3e-234b-4edd-af4c-4cfe49ed6977",
+      "task_id": "102",
+      "timestamp": "2026-01-21T02:41:25.380118",
+      "start_time": "2026-01-21T02:34:05.627331",
+      "end_time": "2026-01-21T02:41:25.380084",
+      "duration": 439.75126950256526,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.013342,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "93800d01-c9b0-4ffe-b990-38d78a5a6194",
+      "task_id": "100",
+      "timestamp": "2026-01-21T02:41:48.428370",
+      "start_time": "2026-01-21T02:32:32.374353",
+      "end_time": "2026-01-21T02:41:48.428357",
+      "duration": 556.0524455253035,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.026587999999999997,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "2d7d0ba8-81c4-440c-b255-9d08c4fac4cb",
+      "task_id": "18",
+      "timestamp": "2026-01-21T02:42:36.318020",
+      "start_time": "2026-01-21T02:37:41.287516",
+      "end_time": "2026-01-21T02:42:36.318008",
+      "duration": 295.02958563528955,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.010008,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "1c170704-1001-4277-85f9-5e2a8a0f376e",
+      "task_id": "5",
+      "timestamp": "2026-01-21T02:43:24.010080",
+      "start_time": "2026-01-21T02:34:41.469330",
+      "end_time": "2026-01-21T02:43:24.010063",
+      "duration": 522.5392428124323,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.019704,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "72cfcabe-63cd-421b-b9bb-26e05c734f63",
+      "task_id": "111",
+      "timestamp": "2026-01-21T02:44:06.143765",
+      "start_time": "2026-01-21T02:34:23.448109",
+      "end_time": "2026-01-21T02:44:06.143749",
+      "duration": 582.6935981046408,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.017956,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 1,
+      "seed": 373753
+    },
+    {
+      "id": "b08ce119-13ae-4f4a-a792-a1cf00f6f969",
+      "task_id": "39",
+      "timestamp": "2026-01-21T02:44:45.480825",
+      "start_time": "2026-01-21T02:41:26.101348",
+      "end_time": "2026-01-21T02:44:45.480814",
+      "duration": 199.37893562112004,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.0069299999999999995,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "51736125-a8f2-4d18-b4cd-14eb145baeba",
+      "task_id": "27",
+      "timestamp": "2026-01-21T02:45:22.629639",
+      "start_time": "2026-01-21T02:39:18.292673",
+      "end_time": "2026-01-21T02:45:22.629616",
+      "duration": 364.33529834635556,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.010953999999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "65c3de94-001b-48fe-a827-1eb5f61d6aa2",
+      "task_id": "33",
+      "timestamp": "2026-01-21T02:45:35.950946",
+      "start_time": "2026-01-21T02:40:40.522501",
+      "end_time": "2026-01-21T02:45:35.950935",
+      "duration": 295.4277806477621,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.009418,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "295c2492-03d8-4ae0-93c1-cc7f07ddf530",
+      "task_id": "40",
+      "timestamp": "2026-01-21T02:47:41.927818",
+      "start_time": "2026-01-21T02:41:49.209571",
+      "end_time": "2026-01-21T02:47:41.927808",
+      "duration": 352.7172880973667,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.011556,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "849295c8-c918-4098-8dd4-ae826d466f6c",
+      "task_id": "51",
+      "timestamp": "2026-01-21T02:49:15.661888",
+      "start_time": "2026-01-21T02:44:46.173570",
+      "end_time": "2026-01-21T02:49:15.661876",
+      "duration": 269.487510336563,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007994,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "a407bc5e-e492-47b9-8f7b-683d6ba97cfb",
+      "task_id": "45",
+      "timestamp": "2026-01-21T02:49:17.119540",
+      "start_time": "2026-01-21T02:43:24.740947",
+      "end_time": "2026-01-21T02:49:17.119530",
+      "duration": 352.37788229901344,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.008681999999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 0.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "ebf73f43-1afd-467c-b7b4-1a806fc2187e",
+      "task_id": "53",
+      "timestamp": "2026-01-21T02:49:29.009055",
+      "start_time": "2026-01-21T02:45:23.368006",
+      "end_time": "2026-01-21T02:49:29.009043",
+      "duration": 245.64011103753,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.008072,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "2579b37a-4fc5-487d-86de-4ecdfb1619db",
+      "task_id": "42",
+      "timestamp": "2026-01-21T02:50:04.659022",
+      "start_time": "2026-01-21T02:42:36.982302",
+      "end_time": "2026-01-21T02:50:04.659011",
+      "duration": 447.67554363794625,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.011662,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 10,
+          "reward_total": 10.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "f0a459cb-95fe-4357-beee-22a02ef69369",
+      "task_id": "36",
+      "timestamp": "2026-01-21T02:50:23.193458",
+      "start_time": "2026-01-21T02:41:14.508894",
+      "end_time": "2026-01-21T02:50:23.193446",
+      "duration": 548.6833227882162,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.010898,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "ffed06ab-196d-43bc-bf4d-81c328ed0fbb",
+      "task_id": "32",
+      "timestamp": "2026-01-21T02:50:31.503144",
+      "start_time": "2026-01-21T02:40:03.961395",
+      "end_time": "2026-01-21T02:50:31.503130",
+      "duration": 627.5399848036468,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.027926000000000003,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 13,
+          "matched_count": 13,
+          "reward_total": 13.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "ebfa5bc0-eff1-44f4-9b5a-3e879e0e2ef0",
+      "task_id": "49",
+      "timestamp": "2026-01-21T02:50:31.732263",
+      "start_time": "2026-01-21T02:44:07.213916",
+      "end_time": "2026-01-21T02:50:31.732251",
+      "duration": 384.5173620795831,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006206,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 8,
+          "reward_total": 8.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "e177b3a7-774d-4c67-9ae8-b92a6e7a9bc6",
+      "task_id": "38",
+      "timestamp": "2026-01-21T02:50:37.909268",
+      "start_time": "2026-01-21T02:41:16.378269",
+      "end_time": "2026-01-21T02:50:37.909252",
+      "duration": 561.5297106765211,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.013714,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "1060d6bc-4fde-4e30-ad24-d2b992a3e07f",
+      "task_id": "56",
+      "timestamp": "2026-01-21T02:51:31.634114",
+      "start_time": "2026-01-21T02:47:42.846355",
+      "end_time": "2026-01-21T02:51:31.634103",
+      "duration": 228.78688378911465,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.008065999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "6603ba1a-528c-4e95-8f0f-ea86ec88e549",
+      "task_id": "60",
+      "timestamp": "2026-01-21T02:52:20.110545",
+      "start_time": "2026-01-21T02:49:16.469474",
+      "end_time": "2026-01-21T02:52:20.110529",
+      "duration": 183.63985434826463,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.005246,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "9bd8c5d1-0ce0-4bb8-b5b4-27bf2d997d7c",
+      "task_id": "68",
+      "timestamp": "2026-01-21T02:52:30.952495",
+      "start_time": "2026-01-21T02:50:32.339447",
+      "end_time": "2026-01-21T02:52:30.952484",
+      "duration": 118.61231451109052,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006728,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "ebc6a647-4e93-41ba-a460-0cf63c3a5b68",
+      "task_id": "61",
+      "timestamp": "2026-01-21T02:52:37.764446",
+      "start_time": "2026-01-21T02:49:17.958605",
+      "end_time": "2026-01-21T02:52:37.764436",
+      "duration": 199.80518822930753,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.0046,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "786e182d-dd50-44a9-a721-fe14e9e6f3f3",
+      "task_id": "70",
+      "timestamp": "2026-01-21T02:53:05.105397",
+      "start_time": "2026-01-21T02:50:32.762180",
+      "end_time": "2026-01-21T02:53:05.105381",
+      "duration": 152.3424156056717,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007748,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "5340f21d-3ebc-412e-89d2-f8b53df5c004",
+      "task_id": "64",
+      "timestamp": "2026-01-21T02:53:09.681558",
+      "start_time": "2026-01-21T02:50:05.364012",
+      "end_time": "2026-01-21T02:53:09.681548",
+      "duration": 184.31676524225622,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.00731,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 8,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "e861e164-f4e2-414b-8376-4007272ec714",
+      "task_id": "65",
+      "timestamp": "2026-01-21T02:53:21.312533",
+      "start_time": "2026-01-21T02:50:23.929829",
+      "end_time": "2026-01-21T02:53:21.312522",
+      "duration": 177.38203093688935,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.004893999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "115fd2d8-cca3-441e-a8da-097939ade25d",
+      "task_id": "55",
+      "timestamp": "2026-01-21T02:53:41.770241",
+      "start_time": "2026-01-21T02:45:36.821888",
+      "end_time": "2026-01-21T02:53:41.770220",
+      "duration": 484.9459704970941,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.032372,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 13,
+          "matched_count": 8,
+          "reward_total": 8.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "368a0715-403f-4320-9eda-dc9234b35b6c",
+      "task_id": "77",
+      "timestamp": "2026-01-21T02:56:21.326995",
+      "start_time": "2026-01-21T02:52:20.896332",
+      "end_time": "2026-01-21T02:56:21.326980",
+      "duration": 240.42938049323857,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007817999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "d5a96c3c-f65d-4a29-abf1-39909c3fe3cc",
+      "task_id": "71",
+      "timestamp": "2026-01-21T02:57:36.147396",
+      "start_time": "2026-01-21T02:50:38.876475",
+      "end_time": "2026-01-21T02:57:36.147381",
+      "duration": 417.26947752572596,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.015663999999999997,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "b783139d-0cf3-482d-bce2-e6ace0e5974e",
+      "task_id": "74",
+      "timestamp": "2026-01-21T02:59:15.892665",
+      "start_time": "2026-01-21T02:51:32.470313",
+      "end_time": "2026-01-21T02:59:15.892653",
+      "duration": 463.42122292146087,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.013891999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "29e2c937-71a0-4c86-90e3-7338562e0792",
+      "task_id": "79",
+      "timestamp": "2026-01-21T02:59:43.745524",
+      "start_time": "2026-01-21T02:52:31.713800",
+      "end_time": "2026-01-21T02:59:43.745514",
+      "duration": 432.0309937875718,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.00724,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "a0b4aa74-9893-4cb5-9c8f-85554950149e",
+      "task_id": "94",
+      "timestamp": "2026-01-21T02:59:57.266530",
+      "start_time": "2026-01-21T02:53:11.323389",
+      "end_time": "2026-01-21T02:59:57.266519",
+      "duration": 405.9420481361449,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.013075999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "ee9a23f9-6038-489c-8363-8723d68a439e",
+      "task_id": "62",
+      "timestamp": "2026-01-21T03:00:03.974764",
+      "start_time": "2026-01-21T02:49:29.817091",
+      "end_time": "2026-01-21T03:00:03.974745",
+      "duration": 634.1561493230984,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.028319999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "67dbeb76-3c28-4240-95a3-d3c7cb1f190c",
+      "task_id": "97",
+      "timestamp": "2026-01-21T03:00:49.773455",
+      "start_time": "2026-01-21T02:53:24.023141",
+      "end_time": "2026-01-21T03:00:49.773444",
+      "duration": 445.74934425670654,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.00814,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "71305ec4-1a6b-49b1-bb8d-750782a505c4",
+      "task_id": "86",
+      "timestamp": "2026-01-21T03:01:43.577640",
+      "start_time": "2026-01-21T02:52:38.511153",
+      "end_time": "2026-01-21T03:01:43.577605",
+      "duration": 545.0644487356767,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007026,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "ffe63dc9-6fa5-4149-9f5d-aa2ab5a2160f",
+      "task_id": "12",
+      "timestamp": "2026-01-21T03:02:10.742463",
+      "start_time": "2026-01-21T03:00:50.575933",
+      "end_time": "2026-01-21T03:02:10.742454",
+      "duration": 80.16595724690706,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006529999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "50557f5d-9331-4497-a59b-8e57ff6148bc",
+      "task_id": "108",
+      "timestamp": "2026-01-21T03:03:12.733687",
+      "start_time": "2026-01-21T02:59:17.019543",
+      "end_time": "2026-01-21T03:03:12.733674",
+      "duration": 235.71323768328875,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007394,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "7c147d93-6f6d-43ed-8b30-a7fd6952cc0f",
+      "task_id": "90",
+      "timestamp": "2026-01-21T03:03:29.714946",
+      "start_time": "2026-01-21T02:53:06.540388",
+      "end_time": "2026-01-21T03:03:29.714931",
+      "duration": 623.173096566461,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.025774,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "dc92041d-3d8c-40ca-808f-624e3cf42438",
+      "task_id": "9",
+      "timestamp": "2026-01-21T03:03:36.270499",
+      "start_time": "2026-01-21T03:00:04.729831",
+      "end_time": "2026-01-21T03:03:36.270488",
+      "duration": 211.53987620957196,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007014,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "7bbe4db8-88e8-4b10-8ced-5254830b3ccb",
+      "task_id": "100",
+      "timestamp": "2026-01-21T03:04:00.768263",
+      "start_time": "2026-01-21T02:53:42.736450",
+      "end_time": "2026-01-21T03:04:00.768247",
+      "duration": 618.0300744082779,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.013904,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "f6affca0-0567-4021-bf15-89ab45c6122b",
+      "task_id": "17",
+      "timestamp": "2026-01-21T03:04:59.469081",
+      "start_time": "2026-01-21T03:01:44.365525",
+      "end_time": "2026-01-21T03:04:59.469071",
+      "duration": 195.10275339893997,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007796,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "dbe9eafb-a63c-4777-8efd-4bc03d5b28b9",
+      "task_id": "102",
+      "timestamp": "2026-01-21T03:05:52.518779",
+      "start_time": "2026-01-21T02:57:36.954233",
+      "end_time": "2026-01-21T03:05:52.518763",
+      "duration": 495.5628210641444,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.010816,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "027b9f70-78b5-4609-b2ea-e1f124855ce2",
+      "task_id": "101",
+      "timestamp": "2026-01-21T03:06:17.523761",
+      "start_time": "2026-01-21T02:56:22.074616",
+      "end_time": "2026-01-21T03:06:17.523749",
+      "duration": 595.4476243034005,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.015888,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "30d679ea-ce7f-4acb-aea1-29398ee1b69c",
+      "task_id": "5",
+      "timestamp": "2026-01-21T03:07:06.797244",
+      "start_time": "2026-01-21T02:59:57.987166",
+      "end_time": "2026-01-21T03:07:06.797231",
+      "duration": 428.8088535508141,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.014361999999999998,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "27856e97-1848-4d7c-8993-d871418b9c71",
+      "task_id": "18",
+      "timestamp": "2026-01-21T03:08:30.722481",
+      "start_time": "2026-01-21T03:02:11.531112",
+      "end_time": "2026-01-21T03:08:30.722464",
+      "duration": 379.1904282718897,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.009218,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "424420e1-40ce-4e11-9a65-279b3f04ef74",
+      "task_id": "27",
+      "timestamp": "2026-01-21T03:09:30.938570",
+      "start_time": "2026-01-21T03:03:30.499425",
+      "end_time": "2026-01-21T03:09:30.938559",
+      "duration": 360.4383305236697,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.005625999999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "c18062e2-d064-4ba0-8680-723b58d259b8",
+      "task_id": "40",
+      "timestamp": "2026-01-21T03:09:31.964937",
+      "start_time": "2026-01-21T03:07:07.738410",
+      "end_time": "2026-01-21T03:09:31.964918",
+      "duration": 144.22567445412278,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006404,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "375f8af4-2e83-4ec9-8891-17e41deb8519",
+      "task_id": "26",
+      "timestamp": "2026-01-21T03:10:27.601448",
+      "start_time": "2026-01-21T03:03:13.612743",
+      "end_time": "2026-01-21T03:10:27.601437",
+      "duration": 433.9877391755581,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.008838,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 8,
+          "matched_count": 7,
+          "reward_total": 7.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "fbe1538c-fd38-49ef-adf7-01c81a0337f5",
+      "task_id": "39",
+      "timestamp": "2026-01-21T03:11:42.400719",
+      "start_time": "2026-01-21T03:06:18.700394",
+      "end_time": "2026-01-21T03:11:42.400708",
+      "duration": 323.69936369359493,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.01491,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "afebe1a2-f875-4f20-91ba-2240244d1814",
+      "task_id": "33",
+      "timestamp": "2026-01-21T03:11:47.929382",
+      "start_time": "2026-01-21T03:04:01.548059",
+      "end_time": "2026-01-21T03:11:47.929362",
+      "duration": 466.3798300214112,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.019975999999999997,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "310a2d61-dd57-4634-8c0f-0ca0e679a968",
+      "task_id": "111",
+      "timestamp": "2026-01-21T03:12:53.549324",
+      "start_time": "2026-01-21T02:59:44.515839",
+      "end_time": "2026-01-21T03:12:53.549310",
+      "duration": 789.0317948888987,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.024862,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 2,
+      "seed": 361454
+    },
+    {
+      "id": "8db0969e-6b90-4c08-868e-590d012d2676",
+      "task_id": "51",
+      "timestamp": "2026-01-21T03:13:09.545915",
+      "start_time": "2026-01-21T03:10:28.647329",
+      "end_time": "2026-01-21T03:13:09.545901",
+      "duration": 160.89784319978207,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007752,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "10f91450-4063-41d1-8376-731b21df312b",
+      "task_id": "32",
+      "timestamp": "2026-01-21T03:13:09.848145",
+      "start_time": "2026-01-21T03:03:37.025070",
+      "end_time": "2026-01-21T03:13:09.848130",
+      "duration": 572.8214038312435,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.025012,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 13,
+          "matched_count": 13,
+          "reward_total": 13.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "e0210f39-2278-40e9-b7d2-e1358a68c8bb",
+      "task_id": "45",
+      "timestamp": "2026-01-21T03:14:30.874417",
+      "start_time": "2026-01-21T03:09:31.961284",
+      "end_time": "2026-01-21T03:14:30.874406",
+      "duration": 298.912257171236,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.01182,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "7ce7b96c-0a3a-4cff-8f6d-dece96ef5161",
+      "task_id": "49",
+      "timestamp": "2026-01-21T03:14:55.940527",
+      "start_time": "2026-01-21T03:09:32.807048",
+      "end_time": "2026-01-21T03:14:55.940517",
+      "duration": 323.1325534749776,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006472,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 8,
+          "reward_total": 8.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "bfaba699-8733-4750-ae98-a06e1b7e075c",
+      "task_id": "42",
+      "timestamp": "2026-01-21T03:14:57.152863",
+      "start_time": "2026-01-21T03:08:31.585014",
+      "end_time": "2026-01-21T03:14:57.152851",
+      "duration": 385.56668601650745,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.012021999999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 10,
+          "matched_count": 10,
+          "reward_total": 10.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "7d8b31b2-8d81-449d-9354-4d19791757ce",
+      "task_id": "53",
+      "timestamp": "2026-01-21T03:15:00.520504",
+      "start_time": "2026-01-21T03:11:43.165080",
+      "end_time": "2026-01-21T03:15:00.520490",
+      "duration": 197.3540681907907,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.008042,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 6,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "20f3b695-569e-49f7-bdc6-c3850159a8f1",
+      "task_id": "38",
+      "timestamp": "2026-01-21T03:15:31.095933",
+      "start_time": "2026-01-21T03:05:53.304599",
+      "end_time": "2026-01-21T03:15:31.095922",
+      "duration": 577.7900947602466,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.011101999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "15569637-9b3f-4e75-b8bc-3096d9b5817c",
+      "task_id": "60",
+      "timestamp": "2026-01-21T03:16:08.452705",
+      "start_time": "2026-01-21T03:13:10.399571",
+      "end_time": "2026-01-21T03:16:08.452694",
+      "duration": 178.0524700237438,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.0052439999999999995,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "bac5eb6f-954a-4ff1-888c-7c54f7614b2c",
+      "task_id": "61",
+      "timestamp": "2026-01-21T03:16:27.654017",
+      "start_time": "2026-01-21T03:13:10.935289",
+      "end_time": "2026-01-21T03:16:27.654006",
+      "duration": 196.71805585827678,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.005012,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "77a4c023-05b9-4528-af1d-afe104ddcd71",
+      "task_id": "56",
+      "timestamp": "2026-01-21T03:17:25.359524",
+      "start_time": "2026-01-21T03:12:54.392606",
+      "end_time": "2026-01-21T03:17:25.359512",
+      "duration": 270.9659373452887,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.010237999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 7,
+          "matched_count": 6,
+          "reward_total": 6.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "f53b2277-1b4c-48ad-ab86-30acae3bd79c",
+      "task_id": "68",
+      "timestamp": "2026-01-21T03:18:06.154452",
+      "start_time": "2026-01-21T03:15:01.556099",
+      "end_time": "2026-01-21T03:18:06.154442",
+      "duration": 184.59763701166958,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007091999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 4,
+          "matched_count": 4,
+          "reward_total": 4.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "d3eacda9-1de3-4a98-8e78-ec9f27b04774",
+      "task_id": "65",
+      "timestamp": "2026-01-21T03:20:04.122899",
+      "start_time": "2026-01-21T03:14:57.975087",
+      "end_time": "2026-01-21T03:20:04.122888",
+      "duration": 306.14704775530845,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006772,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "b842a929-5b5d-4a4d-b819-db779a7a04fb",
+      "task_id": "64",
+      "timestamp": "2026-01-21T03:20:33.209456",
+      "start_time": "2026-01-21T03:14:56.777909",
+      "end_time": "2026-01-21T03:20:33.209441",
+      "duration": 336.43074364680797,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007188,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 8,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "3c7e34d9-f238-4f88-a8c5-aa586be1826a",
+      "task_id": "55",
+      "timestamp": "2026-01-21T03:21:06.340989",
+      "start_time": "2026-01-21T03:11:48.700416",
+      "end_time": "2026-01-21T03:21:06.340975",
+      "duration": 557.6388559583575,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.03024,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 13,
+          "matched_count": 12,
+          "reward_total": 12.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "8550859f-ddc7-4d16-a959-5801799136ed",
+      "task_id": "79",
+      "timestamp": "2026-01-21T03:21:25.646519",
+      "start_time": "2026-01-21T03:18:07.021724",
+      "end_time": "2026-01-21T03:21:25.646508",
+      "duration": 198.62428081780672,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006598,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "30985168-2225-4594-9455-24af15fa068d",
+      "task_id": "36",
+      "timestamp": "2026-01-21T03:21:36.684600",
+      "start_time": "2026-01-21T03:05:00.321205",
+      "end_time": "2026-01-21T03:21:36.684586",
+      "duration": 996.3616530140862,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.027270000000000003,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "f7a9047b-643a-4da8-ac6d-8497612a7acf",
+      "task_id": "77",
+      "timestamp": "2026-01-21T03:22:06.897326",
+      "start_time": "2026-01-21T03:17:26.171939",
+      "end_time": "2026-01-21T03:22:06.897315",
+      "duration": 280.72464802023023,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.005569999999999999,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "24b5c3e6-c2bf-4545-9e3c-4db81ae2d68b",
+      "task_id": "70",
+      "timestamp": "2026-01-21T03:22:42.418663",
+      "start_time": "2026-01-21T03:15:31.995905",
+      "end_time": "2026-01-21T03:22:42.418646",
+      "duration": 430.42164905462414,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.010077999999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "02388a6b-dd70-4fab-a901-bad256a1d7af",
+      "task_id": "62",
+      "timestamp": "2026-01-21T03:23:21.356270",
+      "start_time": "2026-01-21T03:14:31.791054",
+      "end_time": "2026-01-21T03:23:21.356258",
+      "duration": 529.5640809191391,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.017723999999999997,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 5,
+          "matched_count": 5,
+          "reward_total": 5.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "53063873-6fc9-4e25-8ece-879c47d2919f",
+      "task_id": "74",
+      "timestamp": "2026-01-21T03:24:07.938502",
+      "start_time": "2026-01-21T03:16:28.465648",
+      "end_time": "2026-01-21T03:24:07.938492",
+      "duration": 459.4718400184065,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.009909999999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "eb258578-a409-4706-8c89-79549a2962d0",
+      "task_id": "94",
+      "timestamp": "2026-01-21T03:24:31.011726",
+      "start_time": "2026-01-21T03:21:07.251957",
+      "end_time": "2026-01-21T03:24:31.011715",
+      "duration": 203.7589431842789,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.007604,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "eaf83ead-5b1d-43f1-b89c-9c130a4adbce",
+      "task_id": "90",
+      "timestamp": "2026-01-21T03:24:55.054268",
+      "start_time": "2026-01-21T03:20:34.001561",
+      "end_time": "2026-01-21T03:24:55.054249",
+      "duration": 261.05125640239567,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.013461999999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 1,
+          "reward_total": 1.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "1bb67000-0067-4e27-ab02-b32da4c354e1",
+      "task_id": "97",
+      "timestamp": "2026-01-21T03:25:36.141729",
+      "start_time": "2026-01-21T03:21:26.528404",
+      "end_time": "2026-01-21T03:25:36.141718",
+      "duration": 249.61243084352463,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.006702,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "22ab5885-c4d9-41fd-ad8a-67690dff8237",
+      "task_id": "108",
+      "timestamp": "2026-01-21T03:26:56.511143",
+      "start_time": "2026-01-21T03:23:22.285576",
+      "end_time": "2026-01-21T03:26:56.511128",
+      "duration": 214.2247285824269,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.00536,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 1,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "c0092c0d-d5b2-4ec4-b875-eb3391cceba0",
+      "task_id": "100",
+      "timestamp": "2026-01-21T03:27:14.494000",
+      "start_time": "2026-01-21T03:21:37.521454",
+      "end_time": "2026-01-21T03:27:14.493989",
+      "duration": 336.9714096011594,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.010353999999999999,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "50a54eb0-97db-4e45-bb9c-dda82ab1d087",
+      "task_id": "86",
+      "timestamp": "2026-01-21T03:27:29.229015",
+      "start_time": "2026-01-21T03:20:05.011069",
+      "end_time": "2026-01-21T03:27:29.229005",
+      "duration": 444.21673152409494,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.010546,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "bc3794ff-a811-4a73-8904-7496c9bf595f",
+      "task_id": "102",
+      "timestamp": "2026-01-21T03:28:40.110563",
+      "start_time": "2026-01-21T03:22:43.238568",
+      "end_time": "2026-01-21T03:28:40.110547",
+      "duration": 356.8707777932286,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.010861999999999998,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "9ce9aa97-7c5b-4d01-9f90-b9ffe16fd923",
+      "task_id": "101",
+      "timestamp": "2026-01-21T03:28:43.775404",
+      "start_time": "2026-01-21T03:22:07.819270",
+      "end_time": "2026-01-21T03:28:43.775392",
+      "duration": 395.954850807786,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.013946,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 2,
+          "reward_total": 2.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "4bc0ddaa-843c-4337-8c94-65861a89033b",
+      "task_id": "111",
+      "timestamp": "2026-01-21T03:36:15.664372",
+      "start_time": "2026-01-21T03:24:08.883082",
+      "end_time": "2026-01-21T03:36:15.664355",
+      "duration": 726.7794159920886,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.016796,
+      "reward_info": {
+        "reward": 1.0,
+        "db_check": {
+          "db_match": true,
+          "db_reward": 1.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 3,
+          "matched_count": 3,
+          "reward_total": 3.0
+        },
+        "reward_breakdown": {
+          "DB": 1.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    },
+    {
+      "id": "328c64db-0820-41d1-a68f-ce6c68472c23",
+      "task_id": "71",
+      "timestamp": "2026-01-21T03:44:48.513886",
+      "start_time": "2026-01-21T03:16:09.252918",
+      "end_time": "2026-01-21T03:44:48.513870",
+      "duration": 1719.2596575086936,
+      "termination_reason": "user_stop",
+      "agent_cost": 0.0,
+      "user_cost": 0.011094,
+      "reward_info": {
+        "reward": 0.0,
+        "db_check": {
+          "db_match": false,
+          "db_reward": 0.0
+        },
+        "env_assertions_summary": {
+          "count": 0,
+          "matched_count": 0,
+          "reward_total": 0
+        },
+        "action_checks_summary": {
+          "count": 2,
+          "matched_count": 0,
+          "reward_total": 0.0
+        },
+        "reward_breakdown": {
+          "DB": 0.0,
+          "COMMUNICATE": 1.0
+        }
+      },
+      "trial": 3,
+      "seed": 1567
+    }
+  ]
+}
